@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix West Virginia Roleplay (WVRP) Discord Bot",
+  "description": "Official Discord.js v14 management bot for West Virginia Roleplay (WVRP) with ER:LC API v2, interactive panels, shifts, tickets, applications, and economy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

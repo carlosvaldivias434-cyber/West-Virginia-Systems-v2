@@ -1,0 +1,1095 @@
+# WVRP EXISTING BOT — FULL DISCORD COMPONENTS V2 UPGRADE & LOGGING IMPLEMENTATION
+
+## 🚨 MOST IMPORTANT: DO NOT REBUILD OR CHANGE MY EXISTING BOT
+
+You are working on my EXISTING West Virginia State Roleplay Discord bot / West Virginia Systems Bot project.
+
+I am NOT asking you to:
+- Create a new Discord bot.
+- Create a replacement project.
+- Rebuild my application.
+- Change my bot's architecture.
+- Redesign my existing command system.
+- Remove or rename existing commands.
+- Remove existing features.
+- Replace working systems with mockups.
+- Change my existing database or configuration unnecessarily.
+- Change how my current systems operate.
+
+**I ONLY WANT YOU TO UPGRADE THE EXISTING DISCORD MESSAGE INTERFACES TO DISCORD COMPONENTS V2 AND IMPLEMENT THE LOGGING, APPLICATION, STAFF, AND MODERATION DETAILS SPECIFIED BELOW.**
+
+Before editing anything:
+1. Inspect the complete existing project.
+2. Identify the existing handlers, commands, database, configuration, logging channels, banner system, ticket system, application system, and ER:LC integration.
+3. Understand how the existing systems work.
+4. Reuse the existing code and database.
+5. Make targeted modifications instead of replacing entire files or systems.
+6. Preserve all existing functionality and permissions.
+
+Do not tell me something is complete unless you actually implemented and tested it.
+
+---
+
+# 1. GLOBAL DISCORD COMPONENTS V2 SYSTEM
+
+Upgrade the existing bot's Discord message interfaces to Discord Components V2 wherever applicable.
+
+Use the actual Discord Components V2 system supported by my installed discord.js version.
+
+Use the appropriate Components V2 message flags and components, including:
+- ContainerBuilder
+- TextDisplayBuilder
+- SectionBuilder
+- SeparatorBuilder
+- MediaGalleryBuilder
+- ThumbnailBuilder
+- ActionRowBuilder
+- ButtonBuilder
+- StringSelectMenuBuilder
+- TextInputBuilder
+- ModalBuilder
+
+Inspect my installed discord.js version and use compatible builders and supported component types. Do not assume a method exists without checking.
+
+### Design requirements
+
+All interfaces should have a consistent, professional appearance:
+- Organized sections.
+- Clear headings.
+- Proper spacing and separators.
+- Consistent colors and styling.
+- Correct custom emojis.
+- Proper Discord user mentions.
+- Roblox profile links when available.
+- Timestamps.
+- Buttons that actually work.
+- Dropdown menus that actually work.
+- Appropriate top and bottom banners.
+
+Use the existing WVRP branding, existing configuration, and existing banner URLs.
+
+### Banner rules
+
+For systems that request a top and bottom banner:
+- Display the configured top banner at the beginning of the Components V2 layout.
+- Display the configured bottom banner at the end.
+- Do not invent banner URLs.
+- Reuse existing `.env` variables and the existing banner resolver.
+- Do not duplicate banners.
+- Do not add banners to systems explicitly marked as having no banners.
+
+Important: Components V2 messages must follow Discord's actual compatibility rules. Do not mix traditional embeds and Components V2 in the same message where Discord prohibits it. Convert the interface properly rather than simply adding a V2 flag to an old embed.
+
+Keep traditional embeds only where technically necessary or where an existing integration requires them.
+
+---
+
+# 2. SHIFT SYSTEM AND SHIFT LOGS
+
+Keep my existing shift commands, shift requirements, permissions, database, and functionality.
+
+Upgrade the shift interfaces to Components V2.
+
+When a staff member ends a shift, send a professional log to my configured shift log channel.
+
+### Shift ended log
+
+The layout should look like this:
+
+**[Shift Ended]**
+
+Staff Member: @StaffMember (`DiscordUsername`)
+
+Roblox: `RobloxUsername`
+
+Shift Type: `50/50 Shift`
+
+Shift Started: Monday, November 9, 2026 at 6:23 PM
+
+Shift Ended: Monday, November 9, 2026 at 8:25 PM
+
+Time On Shift: `1h 22m`
+
+Time On Break: `39m`
+
+Place the configured bottom banner at the bottom.
+
+Use the correct custom emojis from my existing emoji configuration. The layout should be built using Components V2.
+
+### Shift tracking requirements
+
+- Record the actual shift start time.
+- Record the actual shift end time.
+- Track breaks separately.
+- Calculate active shift time correctly.
+- Do not count break time as active shift time.
+- Support 50/50 shifts and existing shift types.
+- Prevent duplicate shift-end logs.
+- Preserve shift records after restarts.
+- Record who started and ended each shift.
+- Keep existing shift quota functionality.
+- Make sure staff cannot manipulate their recorded time by restarting the bot.
+
+---
+
+# 3. IN-GAME COMMAND LOGS
+
+Keep the existing ER:LC API integration and command tracking.
+
+When a staff member issues an in-game command, send a Components V2 log to the configured command log channel.
+
+Example:
+
+**In-Game Commands Given**
+
+Staff: `Remote Server`
+
+Permissions: `Unknown`
+
+When: November 9, 2026 at 11:17 PM
+
+Command:
+
+`:pm Royalty_verity Welcome to New York City Roleplay`
+
+Bottom banner.
+
+Requirements:
+- Capture the actual command.
+- Capture the actual Roblox username when available.
+- Capture the Roblox user ID when available.
+- Capture the staff member when identifiable.
+- Display permissions when the API provides them.
+- Display `Unknown` when the information genuinely cannot be determined.
+- Record the timestamp.
+- Do not invent staff identities.
+- Do not duplicate logs.
+- Keep the existing ER:LC polling and API configuration.
+
+---
+
+# 4. MODERATION CALL LOGS
+
+Keep the existing mod-call system.
+
+Use Components V2 for mod-call logs.
+
+Example:
+
+**Mod Call**
+
+Caller: `elixyrblx`
+
+Status: Unanswered
+
+Time: 10:31:01 PM
+
+Monday, November 9, 2026 at 10:31 PM
+
+No banners for mod-call logs.
+
+For answered calls, display:
+
+Caller: `others_37422575`
+
+Status: Answered by `firedogerdoggy`
+
+Response Time: `12m 29s`
+
+Time: `7:51:28 PM`
+
+Requirements:
+- Log every new mod call.
+- Update the correct call when answered.
+- Record who answered.
+- Calculate the actual response time.
+- Track unanswered calls.
+- Prevent duplicate call logs.
+- Keep existing mod-call functionality.
+
+---
+
+# 5. TEAM SWITCH LOGS
+
+Upgrade team switch logs to Components V2.
+
+Example:
+
+**Team Switch**
+
+`elixyrblx` · Police → Sheriff · 10:38:59 PM
+
+No banners.
+
+Requirements:
+- Capture the actual player.
+- Capture the previous team.
+- Capture the new team.
+- Record the time.
+- Do not create a log if no actual team change occurred.
+- Use the existing ER:LC integration.
+
+---
+
+# 6. PLAYER JOIN AND LEAVE LOGS
+
+Upgrade join and leave logs to Components V2.
+
+Example:
+
+**Player Left**
+
+Roblox profile link: `Royalty_verity`
+
+`Royalty_verity` left the server.
+
+Playtime: `0m`
+
+November 9, 2026 at 11:18 PM
+
+For joins:
+
+**Player Joined**
+
+Roblox profile link: `Royalty_verity`
+
+`Royalty_verity` joined the server.
+
+Playtime: `0m`
+
+November 9, 2026 at 11:17 PM
+
+### Player count
+
+Include the current server player count.
+
+Example:
+
+`Players Online: 0/50`
+
+Requirements:
+- Use actual server player count.
+- Use actual maximum server capacity when available.
+- Track join time and playtime.
+- Provide clickable Roblox profile links when a valid Roblox user ID exists.
+- Do not invent profile IDs.
+- Avoid duplicate join/leave records.
+- Handle players who leave before their join record is available.
+
+---
+
+# 7. KILL LOGS AND RDM TRACKING
+
+Upgrade kill logs to Components V2.
+
+Example:
+
+**Kill Logs**
+
+`Bricegamerboy11` was killed by `DVI_BMW`.
+
+November 9, 2026 at 9:00 PM
+
+Display clickable Roblox profile links for both players when their IDs are available.
+
+### Additional functionality
+
+Add a working button or section that displays relevant player statistics, including:
+- Total kills.
+- Total deaths, if available.
+- RDM-related detections.
+- Relevant kill history.
+
+Do not automatically label every kill as RDM.
+
+Only identify RDM when supported by actual server events, reliable rules, and available evidence.
+
+If a player has a history of suspected RDM, make that distinction clear.
+
+Keep the existing kill tracking and ER:LC API integration.
+
+Bottom banner.
+
+---
+
+# 8. OFF-DUTY COMMAND DETECTION
+
+Add or upgrade the existing off-duty command detection system.
+
+Example:
+
+**Off-Duty Command**
+
+Staff: `@WhAtreallyk`
+
+Roblox: `WhAtreallyk`
+
+Command: `:cmds`
+
+Status: Not on shift
+
+Time: 4 hours ago
+
+Bottom banner.
+
+Requirements:
+- Identify staff using the existing Roblox-to-Discord linking system.
+- Check whether the staff member is currently on an active shift.
+- Detect commands issued while off duty.
+- Record the actual command and time.
+- Send the log to the configured security/off-duty detection channel.
+- Do not falsely flag regular players as staff.
+- Do not flag commands when the staff member is actively on shift.
+
+---
+
+# 9. LEAVE OF ABSENCE (LOA) LOGS
+
+Keep the existing LOA system and upgrade its interfaces to Components V2.
+
+Example:
+
+**Leave of Absence Request**
+
+@High Rank · Request #0027 · Accepted
+
+Staff Member: @GJohan2 (`GJohan2`)
+
+From: November 10, 2026
+
+Until: November 14, 2026 · 5 days
+
+Reason: I have a lot to do in school, work and everything, and don't think I can complete my quota this week.
+
+Requested From: Discord
+
+Requested: Monday, November 9, 2026 at 9:06 PM
+
+Accepted by: @Unk0wnS0ULLX
+
+Bottom banner.
+
+### LOA functionality
+
+- Unique sequential LOA request numbers.
+- Submit requests through the existing interface.
+- Private staff review where appropriate.
+- Approve and deny buttons.
+- Denial reason modal.
+- Display the reviewing staff member.
+- Display the requested start and end dates.
+- Calculate the duration correctly.
+- Preserve request history.
+- Update LOA status.
+- Apply existing quota exemptions when appropriate.
+- Prevent duplicate approvals or denials.
+- Log every decision.
+
+---
+
+# 10. SECURITY LOGS AND STAFF DEPARTURE DETECTION
+
+Upgrade the existing security logs to Components V2.
+
+When a staff member leaves the Discord server while holding a configured staff role, generate a security log.
+
+Example:
+
+**Staff Member Left!**
+
+@High Rank · @Senior High Rank
+
+`Staff member` has left the server while having `@Staff Team`.
+
+Username: `TheNoodleDood87`
+
+Roblox: `1088134963`
+
+How They Left: Left on their own
+
+Actions Taken:
+- Removed admin permissions.
+- Removed moderator permissions.
+
+Resolved by: @joseph5g12345
+
+Include a working **Resolve** button.
+
+### Requirements
+
+- Detect member departures.
+- Check configured staff roles.
+- Record the actual staff roles held.
+- Remove configured staff permissions or roles only according to existing security settings.
+- Never remove unrelated roles.
+- Record actions taken.
+- Allow authorized staff to resolve the case.
+- Record who resolved it and when.
+- Prevent duplicate resolution.
+- Keep a persistent record.
+- Bottom banner.
+
+Also preserve existing security and audit logging functionality.
+
+---
+
+# 11. TICKET SYSTEM, TRANSCRIPTS AND AI STAFF ASSISTANCE
+
+Keep my current ticket categories, permissions, ticket creation logic, database, and ticket commands.
+
+Upgrade the ticket opening panels, ticket messages, staff controls, and ticket logs to Components V2.
+
+### Ticket creation
+
+When someone opens a ticket:
+1. Create the private ticket channel.
+2. Give access to the ticket creator, configured support team, and authorized leadership.
+3. Send a professional Components V2 welcome message.
+4. Display the ticket number.
+5. Display the ticket category.
+6. Display the ticket creator.
+7. Display the assigned staff role.
+8. Include the configured top and bottom banners.
+
+### Ticket buttons
+
+Make every existing button functional, including:
+- Claim.
+- Unclaim.
+- Close.
+- Add Member.
+- Remove Member.
+- Rename.
+
+Respect existing permissions.
+
+### Ticket transcripts
+
+When a ticket closes, generate a complete HTML transcript.
+
+Use my configured Cookie API integration if it already exists and is compatible with the transcript workflow.
+
+Requirements:
+- Capture the actual messages.
+- Preserve author names and timestamps.
+- Include attachments and supported message information.
+- Upload or publish the transcript using the existing Cookie API configuration.
+- Log the transcript to the configured transcript channel.
+- Include an **Online Transcript** button that opens the real transcript URL.
+- Do not create fake transcript links.
+- Handle transcript generation failures without losing the ticket record.
+
+### Ticket closure log
+
+Example:
+
+**Ticket #1102 — General Support**
+
+General Support ticket has been closed.
+
+Handled By: @depressionismeon
+
+Closed By: @Viktorek080813
+
+Opened: November 9, 2026 at 11:02 PM
+
+Closed: 35 minutes ago
+
+Duration: `20m`
+
+Messages Sent: `30 messages`
+
+Include the Online Transcript button.
+
+Bottom banner.
+
+### REAL AI TICKET STAFF ASSISTANCE
+
+I want the AI inside tickets to behave like an actual knowledgeable staff assistant, not a basic chatbot that only responds with generic answers.
+
+Use my existing Groq integration and configured model.
+
+The AI should:
+- Read the ticket conversation and understand its context.
+- Answer questions naturally.
+- Help members with server rules, departments, applications, commands, roles, tickets, and community information.
+- Explain how to resolve common issues.
+- Help members understand application requirements.
+- Answer follow-up questions using previous messages in the same ticket.
+- Understand normal language, typos, and incomplete questions.
+- Ask clarifying questions when needed.
+- Provide detailed answers when necessary.
+- Maintain a professional, friendly support-staff tone.
+- Use the actual server configuration and knowledge available to it.
+- Avoid repeating the same response.
+- Avoid responding to every single message unnecessarily.
+- Respond when directly mentioned or when the existing AI support trigger is used.
+
+The AI should be allowed to answer any question it can reasonably answer using its available knowledge.
+
+However:
+- It must not invent server rules or policies.
+- It must not pretend it performed moderation actions.
+- It must not approve or deny applications.
+- It must not claim to be a human moderator.
+- It must escalate sensitive situations to real staff.
+- It must never reveal private configuration, credentials, or internal staff-only information.
+- It must not bypass ticket permissions.
+
+If it does not know something, it must say so and offer to get staff assistance.
+
+---
+
+# 12. APPLICATION SYSTEM AND APPLICATION LOGS
+
+Keep my existing application categories, application commands, questions, database, and reviewer configuration.
+
+Upgrade the entire application experience to Components V2.
+
+### Application panel
+
+Create a professional application panel with a dropdown containing my existing application categories, such as:
+- Staff Application.
+- Media Team Application.
+- Department Application.
+- Ban Appeal, if configured as an application workflow.
+
+Do not remove or rename existing application types.
+
+### Application creation
+
+When a user selects an application:
+1. Create a private application channel.
+2. Allow access only to the applicant, configured reviewers, authorized leadership, and bot.
+3. Send a professional Components V2 welcome message.
+4. Display the applicant's Discord account.
+5. Display their Roblox username and profile link when available.
+6. Display the application category.
+7. Display the assigned reviewer role inside the message.
+8. Include the configured top banner.
+9. Include the configured bottom banner.
+
+### Application questions
+
+Preserve my existing questions. If the current application is configured for 15 questions, keep all 15.
+
+Ask questions one at a time.
+
+Requirements:
+- Save every answer immediately.
+- Display progress such as `Question 5/15`.
+- Allow users to continue after a restart.
+- Prevent users from submitting incomplete applications.
+- Store the final answers in the database.
+- Display a professional final review with every question and answer.
+- Keep the application private.
+
+### Sapling integration
+
+Use my existing Sapling integration to review writing quality where configured.
+
+Sapling may provide:
+- Writing quality feedback.
+- Grammar observations.
+- Clarity feedback.
+- Similarity or AI-writing indicators only where the configured service actually supports them.
+
+Do not automatically reject an applicant based on an AI score.
+
+Human reviewers make the final decision.
+
+### Reviewer interface
+
+At the end of the application, provide working reviewer controls:
+
+- Accept Application.
+- Deny Application.
+- Request Interview.
+- Request Changes.
+
+For denial, open a modal requiring a reason.
+
+For acceptance:
+- Record the reviewer.
+- Update the application status.
+- Apply configured roles.
+- Update the appropriate department roster when applicable.
+- Send the applicant an acceptance result DM.
+- Send the result to the configured results log channel.
+
+For denial:
+- Record the reviewer and reason.
+- Update the application status.
+- Send the applicant a denial result DM.
+- Send the result to the configured results log channel.
+
+### Applicant result DMs
+
+Both acceptance and denial DMs must use Components V2.
+
+Include:
+- Application category.
+- Decision.
+- Applicant.
+- Reviewer.
+- Reason or next steps when appropriate.
+- Timestamp.
+- Configured top and bottom banners.
+
+Make the result messages professional.
+
+Prevent duplicate decisions and duplicate role assignments.
+
+---
+
+# 13. DEPARTMENTS AND ROSTER SYSTEM
+
+Preserve my existing department configuration, department commands, roles, and roster database.
+
+Upgrade department panels and messages to Components V2.
+
+Each department should display:
+- Department name.
+- Department description.
+- Department role.
+- Department leadership.
+- Current members.
+- Department status.
+- Application information where configured.
+
+Use existing department roles and actual Discord members.
+
+### Department actions
+
+Keep existing department functionality and make configured controls work:
+- View department.
+- View roster.
+- Apply to department.
+- Manage department membership.
+- Update department leadership.
+- View department information.
+
+Do not create duplicate department roles.
+
+When an application is accepted, update the correct department roster if the existing workflow requires it.
+
+---
+
+# 14. INFRACTIONS AND APPEALS
+
+Preserve my existing infraction system, punishment types, permissions, commands, and records.
+
+Upgrade all infraction panels, logs, appeals, and results to Components V2.
+
+### Infraction logs
+
+Each infraction should display:
+- Infraction ID.
+- Staff member receiving the infraction.
+- Roblox username when available.
+- Discord ID.
+- Issuing moderator.
+- Punishment type.
+- Reason.
+- Evidence when available.
+- Date and time.
+- Appeal status.
+
+Keep existing infraction ID generation.
+
+### Infraction appeals
+
+Members must be able to submit an appeal through the existing workflow.
+
+Use a private review channel.
+
+Display:
+- Infraction ID.
+- Applicant.
+- Original punishment.
+- Original reason.
+- Appeal explanation.
+- Evidence.
+
+Reviewer controls:
+- Accept Appeal.
+- Deny Appeal.
+- Request More Information.
+
+When accepted, only reverse or modify the punishment if the reviewer is authorized and the existing punishment system supports it.
+
+Add an **Undo/Revoke** button to applicable infraction records where appropriate.
+
+Make sure every action is recorded.
+
+---
+
+# 15. PROMOTION AND DEMOTION SYSTEM
+
+Preserve my existing promotion and demotion commands, role configuration, permissions, and database.
+
+Upgrade promotion and demotion logs to Components V2.
+
+### Promotion log
+
+Display:
+- Promotion ID.
+- Staff member.
+- Previous rank.
+- New rank.
+- Promoted by.
+- Reason.
+- Timestamp.
+- Roblox username and profile link when available.
+
+### Demotion log
+
+Display:
+- Demotion ID.
+- Staff member.
+- Previous rank.
+- New rank.
+- Demoted by.
+- Reason.
+- Timestamp.
+
+Requirements:
+- Use the existing promotion ID system if one exists.
+- Apply the correct configured Discord role.
+- Remove the previous rank role where appropriate.
+- Update the staff roster.
+- Update CoC information when appropriate.
+- Preserve historical records.
+- Prevent duplicate role assignments.
+- Log failed role changes.
+- Do not claim a promotion succeeded if Discord rejected the role update.
+
+---
+
+# 16. MODERATION SYSTEM AND MOD LOGS
+
+Keep the existing moderation commands and permissions.
+
+Upgrade moderation interfaces and logs to Components V2.
+
+If the existing system already has a global MOD case counter, preserve it. Otherwise, implement one persistent global sequential counter.
+
+Examples:
+- MOD-0546
+- MOD-0547
+- MOD-0548
+
+Each action must receive a unique ID.
+
+### Moderation actions
+
+Support:
+- Ban.
+- Kick.
+- Mute.
+- Unmute.
+
+### Moderation log examples
+
+**Member Muted**
+
+`MOD-0546`
+
+User: @ronaldoiscat (`carlos473` · Discord ID)
+
+Moderator: @Wick
+
+Reason: Triggered Automod. [Factor: Similar-Messages Spam]
+
+Duration: 119 seconds
+
+When: November 9, 2026 at 10:38 PM
+
+Add a working **Undo** button where the action is reversible and the clicking moderator has permission.
+
+**Member Banned**
+
+`MOD-0544`
+
+User: @firedogerdoggy
+
+Moderator: @ravenforeverrrr
+
+Reason: No reason given
+
+When: November 9, 2026 at 9:42 PM
+
+**Member Unmuted**
+
+`MOD-0542`
+
+User: @.notkrippled
+
+Moderator: @depressionismeon
+
+Reason: No reason given
+
+When: November 9, 2026 at 8:32 PM
+
+**Member Kicked**
+
+`MOD-0536`
+
+User: @unknown-user
+
+Moderator: @AFK | syncedscript
+
+Reason: nuisance + trolling
+
+When: November 9, 2026 at 6:50 PM
+
+### Moderation DM notifications
+
+After a successful moderation action, send the affected member a professional Components V2 DM.
+
+Include:
+- Action taken.
+- Case ID.
+- Moderator.
+- Reason.
+- Duration when applicable.
+- Timestamp.
+- Appeal information if configured.
+- Existing top and bottom banners where configured.
+
+Do not let a failed DM undo a successful moderation action.
+
+### Moderation statistics
+
+Maintain real database statistics:
+- Total bans.
+- Total kicks.
+- Total mutes.
+- Total unmutes.
+- Currently active mutes.
+- Moderator action counts.
+- User moderation history.
+
+Keep historical records even after an action is reversed.
+
+---
+
+# 17. STAFF FEEDBACK AND STAFF INFORMATION
+
+Preserve the existing staff feedback and staff information systems.
+
+Upgrade their panels and messages to Components V2.
+
+Display:
+- Staff member.
+- Feedback submitted.
+- Submitted by.
+- Date.
+- Status.
+- Reviewer where applicable.
+
+Keep private feedback private according to existing permissions.
+
+---
+
+# 18. TRAINING SYSTEM
+
+Preserve the existing training commands and training workflows.
+
+Upgrade training panels and logs to Components V2.
+
+Support existing training types and configuration.
+
+Display:
+- Trainee.
+- Trainer.
+- Training type.
+- Result.
+- Notes.
+- Date.
+- Department.
+
+Keep the existing training record history.
+
+---
+
+# 19. GIVEAWAYS, ECONOMY AND SHOP
+
+Keep my existing giveaway, economy, and shop systems.
+
+Upgrade their user-facing interfaces to Components V2.
+
+Do not change existing currency values, item prices, giveaway requirements, or reward logic unless explicitly required to fix a verified bug.
+
+Make existing buttons, dropdowns, and interactions work.
+
+---
+
+# 20. ANTI-PING AND AFK
+
+Preserve existing anti-ping and AFK behavior.
+
+Upgrade their panels and notifications to Components V2 where applicable.
+
+Keep:
+- Existing protected roles.
+- Existing anti-ping strike levels.
+- Existing exemptions.
+- Existing AFK status tracking.
+- Original nickname restoration.
+- Existing permissions.
+
+Do not overwrite a user's original nickname with their AFK nickname as the saved original value.
+
+---
+
+# 21. ER:LC INTEGRATION
+
+Do not replace my existing ER:LC API integration.
+
+Keep the current API configuration, API key environment variable, polling system, and event handlers.
+
+Upgrade the relevant Discord log messages to Components V2:
+- Player joins.
+- Player leaves.
+- Player count.
+- Kills.
+- In-game commands.
+- Team switches.
+- Mod calls.
+- Off-duty commands.
+- Other existing supported server events.
+
+Use only data the API actually provides.
+
+Do not invent unsupported API endpoints or pretend an event was detected when it was not.
+
+Keep the configured log channels separate.
+
+---
+
+# 22. LOGGING CHANNEL CONFIGURATION
+
+Use the existing `.env` variables and configuration for log channels.
+
+Do not rename existing environment variables unnecessarily.
+
+Make sure each event goes to its correct configured channel:
+- Shift logs.
+- Command logs.
+- Security logs.
+- LOA logs.
+- Off-duty command logs.
+- Mod-call logs.
+- Team-switch logs.
+- Join logs.
+- Leave logs.
+- Kill logs.
+- Ticket transcript logs.
+- Application logs.
+- Infraction logs.
+- Promotion logs.
+- Demotion logs.
+- Moderation logs.
+- Staff departure logs.
+
+Do not send all events to one channel.
+
+Do not duplicate logs.
+
+If a channel is missing, log a clear configuration warning instead of crashing the bot.
+
+---
+
+# 23. DATABASE AND RELIABILITY
+
+Use the existing database and database architecture.
+
+Do not wipe existing data or recreate the database.
+
+Add migrations only when necessary.
+
+Ensure:
+- Application answers persist.
+- Ticket history persists.
+- Shift records persist.
+- Break records persist.
+- LOA records persist.
+- Moderation cases persist.
+- Promotion and demotion history persists.
+- Infraction records persist.
+- Security cases persist.
+- Log records are not duplicated.
+- Sequential IDs remain unique.
+- Bot restarts do not destroy active workflows.
+
+Use safe database transactions where multiple related changes must happen together.
+
+---
+
+# 24. PERMISSIONS AND SECURITY
+
+Every button, modal, dropdown, and command must verify permissions on the server side.
+
+Do not rely on hiding a button as the only permission check.
+
+Prevent:
+- Unauthorized application decisions.
+- Unauthorized moderation actions.
+- Unauthorized LOA decisions.
+- Unauthorized ticket access.
+- Unauthorized security-case resolution.
+- Duplicate button actions.
+- Interaction replay.
+- Unauthorized role changes.
+
+Use existing configured role permissions.
+
+---
+
+# 25. FINAL TESTING REQUIREMENTS
+
+After implementing everything:
+
+1. Check every changed file.
+2. Check all imports.
+3. Check all Components V2 builders against the installed discord.js version.
+4. Check that messages use the correct Components V2 flags.
+5. Check button and dropdown custom IDs.
+6. Check modal submissions.
+7. Check permissions.
+8. Check database migrations.
+9. Check all configured log channels.
+10. Check banner rendering.
+11. Check transcript generation and online transcript links.
+12. Check AI ticket assistance and error handling.
+13. Check application acceptance and denial workflows.
+14. Check shift duration and break calculations.
+15. Check moderation case IDs and statistics.
+16. Check existing slash commands and prefix commands.
+17. Run the project's available build and validation commands.
+18. Fix errors introduced by your changes.
+
+Do not delete working features to make the build pass.
+
+Do not silently disable a feature that fails.
+
+Do not claim that Discord interactions were tested if you only checked the source code.
+
+## FINAL RULE
+
+I want my EXISTING West Virginia State Roleplay bot to remain the same bot, with the same commands, systems, configuration, database, permissions, and behavior.
+
+The requested work is a targeted upgrade of its Discord interfaces to Components V2, plus the specific logging and functionality described in this prompt.
+
+**DO NOT REBUILD MY BOT. DO NOT REPLACE MY PROJECT. DO NOT REMOVE MY EXISTING FEATURES. MODIFY THE EXISTING PROJECT IN PLACE.**
+
+When finished, provide:
+- What files you changed.
+- What existing systems you preserved.
+- What interfaces were upgraded to Components V2.
+- What new functionality was implemented.
+- What tests actually passed.
+- What still needs configuration or manual Discord testing.
+
+Be honest about the implementation. I want working code, not a completion summary.

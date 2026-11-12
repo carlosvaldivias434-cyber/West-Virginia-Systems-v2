@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 120" width="1000" height="120">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#05192d"/>
+      <stop offset="30%" stop-color="#0a2e5c"/>
+      <stop offset="50%" stop-color="#0066cc"/>
+      <stop offset="70%" stop-color="#0a2e5c"/>
+      <stop offset="100%" stop-color="#05192d"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#00a8ff"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <rect width="1000" height="120" fill="url(#bg)" rx="6"/>
+  
+  <!-- Modern Geometric Grid Accents -->
+  <path d="M0,0 L180,120 L220,120 L40,0 Z" fill="#00e5ff" opacity="0.12"/>
+  <path d="M780,0 L960,120 L1000,120 L820,0 Z" fill="#00e5ff" opacity="0.12"/>
+  <path d="M0,116 L1000,116" stroke="#00e5ff" stroke-width="3" opacity="0.8"/>
+  <path d="M0,4 L1000,4" stroke="#00e5ff" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Mountain Silhouettes for West Virginia -->
+  <path d="M250,116 L320,55 L370,85 L440,35 L490,75 L560,25 L630,80 L700,40 L780,116 Z" fill="#052042" opacity="0.6"/>
+  <path d="M280,116 L350,70 L410,100 L470,60 L540,85 L610,50 L680,95 L750,116 Z" fill="#0c356a" opacity="0.4"/>
+  
+  <!-- Bottom Banner Text -->
+  <text x="500" y="68" fill="url(#neon)" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="900" letter-spacing="14" text-anchor="middle" filter="url(#glow)">WEST VIRGINIA STATE</text>
+  <text x="500" y="94" fill="#a0d8ff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="8" text-anchor="middle">ROLEPLAY COMMUNITY</text>
+  
+  <!-- Emblem accents -->
+  <circle cx="160" cy="60" r="22" fill="#09274e" stroke="#00e5ff" stroke-width="2"/>
+  <polygon points="160,45 165,55 175,57 167,64 169,74 160,68 151,74 153,64 145,57 155,55" fill="#00e5ff"/>
+  
+  <circle cx="840" cy="60" r="22" fill="#09274e" stroke="#00e5ff" stroke-width="2"/>
+  <polygon points="840,45 845,55 855,57 847,64 849,74 840,68 831,74 833,64 825,57 835,55" fill="#00e5ff"/>
+</svg>

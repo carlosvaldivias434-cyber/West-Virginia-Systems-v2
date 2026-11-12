@@ -1,0 +1,3707 @@
+
+WVRP REFERENCE SCREENSHOT ANALYSIS & RECREATION INSTRUCTIONS
+I will be providing screenshots, images, and references from other Discord bots and communities.
+These references show EXACTLY how I want certain parts of my West Virginia Roleplay (WVRP) Discord bot to look and function.
+Your job is to study my references and recreate the relevant designs and functionality for WVRP.
+IMPORTANT: The screenshots are design and functionality references. They are NOT permission to copy another community's identity, branding, name, logo, or private assets.
+1. REFERENCE ANALYSIS
+For every screenshot I upload:
+Examine the entire screenshot carefully.
+Identify the type of embed or panel.
+Identify its title, description, fields, images, thumbnails, footer, and colors.
+Identify all buttons and dropdown menus.
+Identify the purpose of each interaction.
+Identify the expected behavior after each button is clicked.
+Identify any menus, forms, modals, or follow-up embeds.
+Determine which WVRP feature the reference belongs to.
+Do not ignore small details.
+2. RECREATE THE REFERENCE FOR WVRP
+Recreate the reference using:
+West Virginia Roleplay branding.
+WVRP community name.
+WVRP logo.
+Configured WVRP embed colors.
+WVRP banner images.
+Professional timestamps.
+Consistent WVRP footers.
+Preserve the original reference's layout and interaction structure as closely as possible.
+Do not randomly redesign the panel.
+Do not remove important information.
+Do not change how the system works unless I specifically request changes.
+3. DISCORD EMBED DESIGN
+I want professional Discord embeds, not generic messages.
+Use:
+Rich embed titles.
+Organized descriptions.
+Multiple embed fields.
+Author sections.
+Thumbnails.
+Large banner images where appropriate.
+Footer branding.
+Timestamps.
+Dropdown menus.
+Buttons.
+Interactive modals.
+Use the appropriate Discord components for each reference.
+The final embeds should look polished, organized, and consistent.
+4. INTERACTIVE FUNCTIONALITY
+Every visible button and dropdown must have a real function.
+For example:
+If a reference contains an Apply button:
+Open the application process.
+Ask the 15 application questions.
+Save the answers.
+Run Sapling analysis when configured.
+Send the application to staff review.
+Provide Approve and Deny buttons.
+If a reference contains a Session Vote button:
+Open the voting interface.
+Record votes.
+Prevent duplicate voting.
+Update vote counts.
+Allow authorized staff to manage the session.
+If a reference contains a ticket dropdown:
+Display the configured ticket categories.
+Create a private ticket channel.
+Store ticket information.
+Provide staff controls.
+If a reference contains a marketplace dropdown:
+Display service categories.
+Allow users to browse listings.
+Show prices and descriptions.
+Allow users to submit orders.
+Never create decorative buttons that do nothing.
+5. REFERENCE-TO-FEATURE MAPPING
+Maintain a reference tracking document.
+For each uploaded image, record:
+Reference number.
+Screenshot description.
+WVRP feature.
+Design elements.
+Button functionality.
+Dropdown functionality.
+Required database tables.
+Required permissions.
+Implementation status.
+Do not forget previously uploaded references when I provide additional screenshots.
+6. IMPORTANT DEVELOPMENT RULES
+I will sometimes upload several screenshots for the same feature.
+Treat them as connected references when appropriate.
+For example:
+One screenshot may show the main application panel.
+Another may show the application questions.
+Another may show the staff review embed.
+Another may show the acceptance message.
+Together, these screenshots represent one complete application workflow.
+Do not implement each screenshot as an unrelated feature.
+Understand how the entire workflow connects.
+7. MY CONTROL OVER THE DESIGN
+I am the person deciding how WVRP should look.
+Do not make major design decisions without considering my references.
+If I say:
+Change the colors, change the colors.
+Change the buttons, change the buttons.
+Add a dropdown, add a dropdown.
+Remove a field, remove that field.
+Change the wording, change the wording.
+Make it match the reference, follow the reference.
+Do not argue with the requested design.
+If something cannot be implemented due to Discord API limitations, explain the limitation and provide the closest functional alternative.
+8. BEFORE IMPLEMENTATION
+After receiving each reference batch:
+Analyze the images.
+Identify the intended WVRP feature.
+Explain what you understand.
+List the interactions that need implementing.
+Identify any missing information.
+Wait for my approval before making significant changes to the design.
+Once approved, implement the actual Discord.js v14 functionality.
+9. FINAL EXPECTATION
+I want WVRP to look and function like a professionally developed, premium Discord roleplay management bot.
+I am providing the references because I already have a particular design and experience in mind.
+Your job is to recreate that experience for WVRP, with working commands, buttons, dropdowns, modals, database integration, and permissions.
+Do not substitute generic templates for my references.
+Do not use another community's branding.
+Everything must be built specifically for WEST VIRGINIA ROLEPLAY (WVRP).  # WVRP — ADD ER:LC API V2 TO MY EXISTING DISCORD BOT
+IMPORTANT: I ALREADY PROVIDED MY COMPLETE WVRP COMMAND CATALOG, BOT REQUIREMENTS, AND REFERENCE SCREENSHOTS.
+DO NOT REBUILD MY BOT FROM SCRATCH.
+DO NOT REPLACE MY COMMANDS.
+DO NOT RENAME MY COMMANDS.
+DO NOT REMOVE MY COMMANDS.
+DO NOT CHANGE MY PREFIX.
+Your task is to ADD a complete official ER:LC API v2 integration to my existing West Virginia Roleplay Discord bot.
+1. PRESERVE MY EXISTING BOT
+Keep every command I previously requested, including all:
+Ticket commands.
+Session commands.
+ER:LC commands.
+Comms commands.
+Staff management commands.
+Application commands.
+Giveaway commands.
+Roblox and account commands.
+Economy commands.
+Utility commands.
+Training and department commands.
+Marketplace commands.
+Interactive panels.
+Preserve all command names, aliases, subcommands, permissions, descriptions, and intended functionality.
+My prefix is -.
+Keep slash commands and prefix commands working through shared business logic wherever applicable.
+2. ADD THE COMPLETE ER:LC API V2 INTEGRATION
+Integrate the official ER:LC API v2 into my existing bot.
+Use the official API documentation:
+https://apidocs.erlc.gg/
+Implement every API capability that is officially supported, including server information, players, staff information, logs, vehicle information, calls, and supported server commands.
+Do not invent endpoints or unsupported capabilities.
+3. PRESERVE MY EXISTING ER:LC COMMANDS
+Keep my original commands:
+-erlc info
+/erlc info
+/erlc staff
+/erlc players
+/erlc logs
+/erlc run
+-whitelist <user>
+-unwhitelist <user>
+You may ADD additional useful ER:LC subcommands, but never remove or rename the commands above.
+4. CONNECT EVERYTHING
+The ER:LC API must power:
+Existing ER:LC commands.
+ER:LC monitoring.
+Player information.
+Staff information.
+Logging systems.
+Server information embeds.
+Interactive ER:LC panels.
+Supported server commands.
+Use one reusable API service throughout the bot.
+5. REFERENCE SCREENSHOTS
+I WILL PROVIDE SCREENSHOTS OF HOW I WANT MY BOT'S EMBEDS, PANELS, AND INTERACTIONS TO LOOK.
+Analyze each reference individually.
+Preserve its:
+Layout.
+Embed structure.
+Colors.
+Titles.
+Descriptions.
+Fields.
+Images.
+Footers.
+Buttons.
+Dropdown menus.
+Modal workflows.
+Interaction behavior.
+Recreate the references under WEST VIRGINIA ROLEPLAY branding.
+Do not randomly redesign my references.
+If multiple screenshots represent the same feature, treat them as one complete workflow.
+Maintain a reference tracking document identifying each screenshot, its intended feature, design, interactions, permissions, and implementation status.
+Ask me before making major design decisions that are not established by my references.
+6. DEVELOPMENT RULES
+Work inside my existing project.
+Inspect the current folder structure before changing files.
+Reuse existing command handlers and services.
+Do not overwrite working features unnecessarily.
+Preserve existing database data.
+Use environment variables for API credentials.
+Implement actual API requests and real Discord interactions.
+Respect API rate limits.
+Handle missing API keys without crashing the entire bot.
+Never fake API results or report false command success.
+Test new features without breaking existing commands.
+FINAL OBJECTIVE
+I want my existing WVRP bot expanded with a complete ER:LC API integration.
+I do not want a different bot, a simplified command catalog, or a redesigned version of my project.
+MY EXISTING COMMANDS + MY REFERENCE SCREENSHOTS + THE NEW ER:LC API INTEGRATION MUST ALL WORK TOGETHER.  # WEST VIRGINIA ROLEPLAY (WVRP)
+ULTIMATE DISCORD BOT — COMPLETE DEVELOPMENT SPECIFICATION
+You are a professional Discord.js v14 developer, backend engineer, database architect, and Discord interaction designer.
+Build a complete, fully functional Discord management bot for West Virginia Roleplay (WVRP), an Emergency Response: Liberty County (ER:LC) community.
+I am providing reference screenshots of other Discord bots. Use those screenshots to recreate the designs, embed layouts, buttons, dropdowns, and functionality while using completely original WVRP branding.
+IMPORTANT:
+This is an actual Discord bot, NOT a website.
+Do not build a fake dashboard instead of the bot.
+Do not create fake commands.
+Do not create buttons that do nothing.
+Do not replace actual functionality with demonstrations.
+Do not remove commands from the requested catalog.
+Do not rename commands without my permission.
+Do not use NYC Roleplay or Los Angeles Roleplay branding.
+1. TECHNOLOGY
+Use:
+Node.js
+JavaScript ES Modules
+discord.js v14
+better-sqlite3
+dotenv
+Discord REST API
+Official ER:LC API v2
+Roblox API
+Bloxlink
+Groq API
+Sapling API
+Default prefix: -
+Every applicable command must work through both slash commands and prefix commands, sharing the same business logic.
+2. EXACT REQUESTED COMMAND CATALOG
+Implement every command and operation below.
+These are the requested command names and behaviors. Additional commands may be added, but none of these may be silently omitted.
+A. TICKETS AND SUPPORT
+Prefix and slash commands:
+-ticketpanel — Post the ticket panel (administrator).
+-ticketbl — Block someone from opening tickets.
+-ticketunbl — Unblock someone from opening tickets.
+-testidle [time] — Test the inactive ticket warning, such as -testidle 2m.
+/ticket add — Add a user to a ticket.
+/ticket remove — Remove a user from a ticket.
+/ticket claim — Claim a ticket.
+/ticket unclaim — Unclaim a ticket.
+/ticket close — Close a ticket.
+/ticket rename — Rename a ticket.
+/ticket close-request — Ask the ticket opener to confirm closing.
+Additional ticket features:
+Ticket priority.
+Ticket escalation.
+Ticket audit logs.
+HTML transcripts.
+Ticket ownership.
+Private channels.
+Staff takeover.
+Ticket inactivity detection.
+Transcript delivery to the opener and authorized staff.
+Ticket dropdown categories:
+General Support.
+High Rank Support.
+Department Support.
+Staff Report.
+Player Report.
+Other.
+AI TICKET ASSISTANT — GROQ
+Create a dedicated AI support assistant inside tickets.
+This AI must have a separate personality from the management bot.
+It should:
+Answer common WVRP questions.
+Explain server regulations.
+Help members with support requests.
+Understand ticket context.
+Direct users to the correct department.
+Ask clarifying questions.
+Recognize when staff intervention is needed.
+Staff controls:
+Pause AI.
+Resume AI.
+Disable AI.
+Enable AI.
+Take over the conversation.
+The AI must never make administrative decisions or pretend to be human staff.
+Use Groq API credentials from .env.
+3. SESSIONS
+Implement these commands:
+/session vote — Start a session vote.
+/session startup — Start a session.
+/session shutdown — Shut down a session.
+/session low — Announce low player count.
+/session full — Announce that the server is full.
+-sessionpanel — Post the interactive session panel.
+Create a permanent interactive session panel with:
+Session Vote.
+Session Startup.
+Low Population.
+Server Full.
+Session Shutdown.
+Session Information.
+Voting must:
+Record individual votes.
+Prevent duplicate votes.
+Display live vote counts.
+Support configurable voting duration.
+Allow authorized staff to start sessions.
+Create professional session announcement embeds.
+4. ER:LC INTEGRATION
+Implement:
+-erlc info
+/erlc info
+/erlc staff
+/erlc players
+/erlc logs
+/erlc run
+Additional prefix commands:
+-whitelist <user>
+-unwhitelist <user>
+Features:
+Server information.
+Server status.
+Player lists.
+Team information.
+In-game staff.
+Kill logs.
+Join and leave logs.
+Vehicle information.
+Emergency calls.
+Moderator logs.
+Server commands.
+Announcements.
+Use official ER:LC API v2.
+If no API key is configured, disable ER:LC integration only. All other bot systems must continue working.
+Never fabricate server data.
+5. COMMS CHECKER
+Implement:
+/comms whitelist
+/comms unwhitelist
+/comms whitelists
+/comms message
+Features:
+Whitelist members.
+Remove members from the whitelist.
+Display whitelisted members.
+View the current comms checker message.
+Change the comms checker message.
+Add administrator permission checks and audit logs.
+6. STAFF MANAGEMENT
+Implement:
+/infract — Issue an infraction.
+/infraction view — View an infraction by ID.
+/infraction revoke — Revoke an infraction.
+/shift online — View staff currently on shift.
+/shift active — View active staff shifts.
+/mod-panel — Get the moderator panel link.
+-staffoftheweek — Award Staff of the Week for the previous week.
+/promote — Promote a staff member.
+/promotion view — View a promotion by ID.
+/promotion revoke — Revoke a promotion.
+-gban — Globally ban a member from the community.
+-gunban — Remove a global ban.
+-botbl — Block someone from using bot commands.
+-botunbl — Remove a bot blacklist.
+Global ban and unban require Senior High Rank permissions or higher.
+Staff features:
+Promotion records.
+Demotion records.
+Infraction history.
+Warnings.
+Strikes.
+Suspensions.
+Terminations.
+Retirements.
+Evidence attachments.
+Staff activity.
+Staff history.
+Staff leaderboards.
+Staff of the Week.
+Staff role configuration.
+IN-GAME SHIFT COMMANDS
+Implement ER:LC in-game chat commands:
+;shift start
+;shift 50/50
+;shift break
+;shift end
+These commands must be processed through the supported ER:LC integration, not falsely advertised as Discord prefix commands.
+Track:
+Shift start.
+Shift type.
+Break start.
+Break duration.
+Shift end.
+Total shift duration.
+Staff member.
+Weekly activity.
+7. APPLICATIONS
+Implement:
+-applicationpanel — Publish application panel.
+-disableapplications — Close applications.
+-enableapplications — Open applications.
+Build a professional WVRP application panel with:
+Application description.
+Requirements.
+Open/closed status.
+Apply button.
+Rules and information.
+APPLICATION QUESTIONNAIRE
+The application must contain exactly 15 configurable questions.
+Use three pages of five questions, or a sequential modal-based process.
+Suggested questions:
+What is your Discord username?
+What is your Roblox username?
+What is your time zone?
+Are you eligible under the configured staff age requirements?
+How many hours can you dedicate weekly?
+Do you have previous moderation experience?
+Why do you want to join WVRP staff?
+What do you know about ER:LC?
+How would you handle an argument between two members?
+How would you respond to a rule violation?
+What would you do if another staff member abused their permissions?
+How would you handle an unfair punishment complaint?
+What does professionalism mean to you?
+How would you contribute to WVRP?
+Is there anything else you would like the application team to know?
+All questions must be editable by authorized administrators.
+SAPLING INTEGRATION
+After the application is submitted:
+Analyze the answers using Sapling.
+Store the analysis results.
+Store available confidence information.
+Display the results in the private reviewer embed.
+Clearly indicate API errors or unavailable analysis.
+Never automatically reject applicants solely based on an AI-writing score.
+APPLICATION REVIEW EMBED
+Send an embed to the configured review channel.
+Display:
+Applicant mention.
+Discord ID.
+Roblox username.
+Application ID.
+Submission date.
+All 15 answers.
+Sapling analysis.
+Current status.
+Assigned reviewer.
+Include these buttons:
+Approve.
+Deny.
+Request More Information.
+Claim Review.
+When approving:
+Ask for confirmation.
+Assign the configured staff role.
+Record the reviewer.
+Record the date.
+Update application status.
+Send an acceptance DM.
+Log the action.
+When denying:
+Ask for a denial reason.
+Record the reviewer.
+Record the date.
+Update application status.
+Send a denial DM.
+Log the action.
+Prevent duplicate reviews and unauthorized decisions.
+8. GIVEAWAYS
+Implement:
+/giveaway start
+/giveaway end
+/giveaway reroll
+Features:
+Interactive giveaway embeds.
+Enter and leave buttons.
+Winner selection.
+Configurable duration.
+Multiple winners.
+Requirements.
+Giveaway history.
+Rerolls.
+Persistent giveaway state.
+9. ACCOUNT AND ROBLOX SYSTEMS
+Implement:
+/afk
+/getinfo
+/playtime me
+/playtime user
+/playtime leaderboard
+-group accept
+/group accept
+-group request-lists
+/group request-lists
+Features:
+AFK status.
+Ping notifications.
+AFK return notifications.
+Roblox account information.
+Roblox profile links.
+Roblox user IDs.
+Profile pictures.
+Group membership.
+Group ranks.
+In-game playtime.
+Staff playtime.
+Pending Roblox group requests.
+Use Roblox API and Bloxlink where appropriate.
+10. ECONOMY SYSTEM
+Implement every command below.
+General economy
+-balance and /balance
+-daily and /daily
+-work and /work
+-deposit and /deposit
+-withdraw and /withdraw
+-pay and /pay
+-rob and /rob
+-hack and /hack
+Games
+-coinflip and /coinflip
+-slots and /slots
+-blackjack and /blackjack
+-roulette and /roulette
+-dice and /dice
+-higherlower and /higherlower
+-crash and /crash
+Cryptocurrency
+-shop and /shop
+-buy and /buy
+-sell and /sell
+-chart and /chart
+-portfolio and /portfolio
+Leaderboards
+-leaderboard and /leaderboard
+Administration
+/eco add
+/eco remove
+/eco set
+/eco reset
+/eco help
+All economy features must use persistent SQLite records, validated transactions, and appropriate cooldowns.
+Economy games must use fair, server-side randomness. Do not implement real-money gambling.
+11. UTILITY COMMANDS
+Implement:
+-mc and /mc
+-commands
+/staff feedback
+-dashboard
+-regulation
+-testwelcome
+-testboost
+-testtag
+-purge <amount>
+/say
+/jsonv2
+/cloneemoji
+Additional commands:
+/help
+/ping
+/botinfo
+/uptime
+/userinfo
+/serverinfo
+/avatar
+/poll
+/suggest
+/report
+/embed
+-commands must show the complete command catalog.
+Include:
+Category dropdown.
+Button pagination.
+Command descriptions.
+Prefix usage.
+Slash usage.
+Required permissions.
+12. ADDITIONAL INTERACTIVE WVRP PANELS
+In addition to the commands above, create the following permanent Discord panels.
+A. MAIN COMMUNITY PANEL
+Contains:
+Community information.
+Discord invite.
+Roblox group.
+ER:LC private server.
+Website.
+Rules.
+Staff applications.
+Support.
+Marketplace.
+Social media.
+Use configurable links.
+B. STAFF FEEDBACK PANEL
+Members can:
+Select a staff member.
+Submit a rating.
+Provide feedback.
+Submit anonymously if configured.
+Staff leadership can review submissions and generate statistics.
+C. STAFF PROMOTION PANEL
+Authorized staff can:
+Select a member.
+Select the new rank.
+Provide a reason.
+Submit a promotion request.
+Record all promotion history and apply configured Discord roles after authorization.
+D. STAFF INFRACTION PANEL
+Authorized staff can:
+Select a staff member.
+Choose an infraction type.
+Enter a reason.
+Attach proof.
+Submit the infraction.
+Provide buttons for viewing, revoking, and reviewing records.
+E. STAFF ACTIVITY PANEL
+Display:
+Current staff on duty.
+Active shifts.
+Total weekly hours.
+Staff leaderboards.
+Recent shift history.
+F. MARKETPLACE PANEL
+Create a professional service marketplace.
+Categories:
+Discord Bot Development.
+Discord Server Setup.
+ER:LC Services.
+Graphics and Branding.
+Website Development.
+Custom Services.
+Users can browse products, view prices, and submit orders.
+Staff can manage listings and orders.
+Include:
+Order IDs.
+Order statuses.
+Customer information.
+Order history.
+Staff assignment.
+Completion records.
+Do not fabricate payments or claim payment integrations exist without implementation.
+G. TRAINING AND DEPARTMENT PANELS
+Support:
+Training announcements.
+Training enrollment.
+RSVP buttons.
+Trainee evaluations.
+Pass/fail results.
+Training history.
+Department rosters.
+Department joining and leaving.
+Department promotions.
+Department configuration.
+13. EMBED DESIGN SYSTEM
+Create a reusable WVRP embed builder.
+All embeds must have configurable:
+Embed colors.
+Titles.
+Descriptions.
+Images.
+Thumbnails.
+Author icons.
+Top banners.
+Bottom banners.
+Footers.
+Timestamps.
+I will provide screenshots of the exact designs I want.
+When I provide a screenshot:
+Analyze its appearance.
+Recreate the embed structure.
+Recreate its buttons.
+Recreate its dropdowns.
+Implement the interactions.
+Apply WVRP branding.
+Ask questions if functionality is unclear.
+Do not invent a different design when I have provided an explicit reference.
+14. DATABASE
+Use better-sqlite3.
+Persist:
+Tickets.
+Ticket participants.
+Applications.
+Application answers.
+Sapling results.
+Staff records.
+Promotions.
+Infractions.
+Staff feedback.
+Shifts.
+Departments.
+Training.
+Giveaways.
+Marketplace listings.
+Marketplace orders.
+Economy.
+Transactions.
+Global bans.
+Bot blacklists.
+Ticket blacklists.
+Group records.
+Session history.
+Server settings.
+Audit logs.
+Data must survive restarts.
+15. CONFIGURATION
+Create .env.example containing:
+DISCORD_TOKEN=
+CLIENT_ID=
+GUILD_ID=
+DEFAULT_PREFIX=-
+DATABASE_PATH=./database/wvrp.sqlite
+EMBED_COLOR=#00A8FF
+TOP_BANNER_URL=
+BOTTOM_BANNER_URL=
+ERLC_API_KEY=
+GROQ_API_KEY=
+GROQ_MODEL=
+SAPLING_API_KEY=
+BLOXLINK_API_KEY=
+Also create configurable channel IDs, role IDs, panel settings, community links, and API settings.
+Never hardcode credentials.
+16. PROJECT STRUCTURE
+Create:
+WVRP/
+├── bot/
+│   ├── commands/
+│   │   ├── tickets/
+│   │   ├── sessions/
+│   │   ├── erlc/
+│   │   ├── comms/
+│   │   ├── staff/
+│   │   ├── applications/
+│   │   ├── giveaways/
+│   │   ├── roblox/
+│   │   ├── economy/
+│   │   ├── utility/
+│   │   ├── training/
+│   │   └── departments/
+│   ├── events/
+│   ├── handlers/
+│   ├── interactions/
+│   ├── services/
+│   ├── database/
+│   ├── embeds/
+│   └── utils/
+├── database/
+├── config/
+├── transcripts/
+├── index.js
+├── deploy-commands.js
+├── package.json
+├── .env.example
+└── README.md
+17. DEPLOYMENT
+Provide:
+npm install
+node deploy-commands.js
+node index.js
+The deployment system must:
+Discover all slash commands.
+Validate command schemas.
+Detect duplicate command names.
+Register valid commands.
+Report exact deployment counts.
+Report invalid command files.
+Load prefix commands independently.
+Respect Discord's command limits by grouping related operations into slash command groups and subcommands.
+18. FINAL REQUIREMENTS
+I want a REAL, fully operational Discord management bot.
+Every command must have real functionality.
+Every panel must have functional buttons and dropdowns.
+Every application must support 15 questions.
+Every application submission must be saved and sent to the reviewer channel.
+Sapling analysis must be real when configured.
+Approve and Deny must perform actual review actions.
+Ticket transcripts must be generated.
+Ticket AI must work through Groq when configured.
+Sessions must have persistent votes and announcements.
+Staff management must update records and roles appropriately.
+Marketplace orders must be saved and tracked.
+ER:LC data must come from the actual API.
+Roblox data must come from real API responses.
+Do not claim something works if it has not been implemented and tested.
+Build the actual project files, not just instructions.
+When I provide reference screenshots, stop and analyze them before implementing the corresponding panel.
+Preserve every requested command and feature throughout development.
+This project is exclusively for WEST VIRGINIA ROLEPLAY (WVRP).  # WEST VIRGINIA ROLEPLAY (WVRP)
+ULTIMATE DISCORD MANAGEMENT BOT — MASTER DEVELOPMENT PROMPT
+You are an expert senior Discord.js developer, backend engineer, database architect, UI/UX designer, and API integration specialist.
+Your assignment is to DESIGN, DEVELOP, AND DELIVER a complete, production-ready Discord management bot exclusively for West Virginia Roleplay (WVRP), an Emergency Response: Liberty County (ER:LC) roleplay community.
+This is not a website, dashboard mockup, visual prototype, or demonstration.
+You must build the actual functional Discord bot, including its source code, commands, event handlers, interactive panels, database, API integrations, permissions, and deployment system.
+The finished product must be professional, reliable, modular, persistent, and ready to operate in a real Discord server.
+1. BRAND IDENTITY
+Bot/community name: West Virginia Roleplay
+Abbreviation: WVRP
+Brand identity:
+Professional West Virginia-themed presentation.
+Premium Discord management system.
+Modern, clean, organized embeds.
+Consistent branding across every interaction.
+Configurable embed colors.
+Configurable top and bottom banner images.
+Reusable embed creation system.
+Consistent timestamps and footers.
+Use the WVRP logo and community emoji when configured.
+NEVER use New York City Roleplay, Los Angeles Roleplay, or another community's branding in the finished project.
+Reference images are for inspiration and functionality only. Recreate their design language for WVRP without copying another community's identity.
+2. TECHNOLOGY
+Use:
+Node.js
+JavaScript ES Modules
+discord.js v14
+better-sqlite3
+dotenv
+Discord REST API
+Official ER:LC API v2
+Roblox API
+Bloxlink integration
+Groq API
+Sapling API
+Use a modular architecture.
+Do not put the entire bot inside one JavaScript file.
+3. COMMAND SYSTEM
+Build an expanded command catalog containing MORE THAN 100 functional command operations.
+Every applicable command must support:
+Discord slash commands.
+Prefix commands using -.
+Shared business logic.
+Consistent permission checks.
+Consistent error handling.
+Consistent database operations.
+Default prefix: -.
+Examples:
+-ticketpanel
+-applicationpanel
+-commands
+-stafflist
+-erlcinfo
+-promote
+Slash command examples:
+/ticketpanel
+/applicationpanel
+/staff promote
+/staff infraction
+/session vote
+/erlc players
+IMPORTANT: Respect Discord's application-command limits. Organize larger command catalogs into command groups and subcommands instead of attempting to register an unlimited number of top-level commands.
+Create an automated command deployment script that:
+Discovers all command modules.
+Validates their definitions.
+Detects duplicates.
+Validates slash command schemas.
+Registers valid slash commands.
+Reports the exact deployed operation count.
+Reports missing and invalid modules.
+Independently loads prefix commands.
+Do not create commands that simply respond with fake success messages.
+4. INTERACTIVE EMBED AND PANEL SYSTEM
+This is one of the MOST IMPORTANT parts of the project.
+The bot must have a centralized rich embed and panel system.
+I want the majority of community functionality to be accessible through professional Discord embeds containing:
+Titles.
+Descriptions.
+Fields.
+Thumbnails.
+Author information.
+Images.
+Top banners.
+Bottom banners.
+Timestamps.
+Footers.
+Dropdown menus.
+Buttons.
+Select menus.
+Modal forms.
+Create reusable panel builders.
+All buttons, dropdowns, and modals must actually work.
+Create these dedicated panels:
+A. Applications Panel
+B. Support Tickets Panel
+C. Session Management Panel
+D. Staff Management Panel
+E. Staff Feedback Panel
+F. Staff Promotions Panel
+G. Staff Infractions Panel
+H. Staff Activity Panel
+I. Training Panel
+J. Department Management Panel
+K. Marketplace Panel
+L. Community Information Panel
+M. ER:LC Information Panel
+N. Giveaway Panel
+O. Server Links and Resources Panel
+Each panel must have its own design, permissions, descriptions, dropdown options, and functional interactions.
+Administrators must be able to publish these panels into configurable Discord channels.
+Panels must survive bot restarts. Use persistent interaction handlers and stable custom IDs.
+5. APPLICATION SYSTEM — 15 QUESTIONS
+Build a complete interactive application system.
+Application process:
+STEP 1: Application panel
+Publish a professional WVRP application embed.
+Include:
+Application description.
+Requirements.
+Important information.
+Application availability.
+Apply button.
+Appropriate WVRP branding.
+STEP 2: Application submission
+When someone clicks Apply:
+Check whether applications are open.
+Check whether the member already has an active application.
+Start the application process.
+Ask exactly 15 configurable questions.
+Use Discord modals where appropriate.
+Use a sequential question interface for questions that cannot fit into one modal.
+Save every answer.
+Preserve progress when practical.
+Prevent duplicate submissions.
+Questions must be editable through configuration or administrative commands.
+Create 15 sensible default staff application questions, covering:
+Discord information.
+Roblox username.
+Age eligibility.
+Time zone.
+Previous staff experience.
+Availability.
+ER:LC knowledge.
+Moderation scenarios.
+Conflict resolution.
+Professionalism.
+Responsibility.
+Activity.
+Teamwork.
+Rule knowledge.
+Motivation for joining WVRP staff.
+Do not assume a specific minimum age unless configured by administrators.
+STEP 3: Sapling integration
+After submission:
+Send application answers to the configured Sapling API.
+Analyze the answers for AI-writing indicators.
+Store the analysis result.
+Store the API response and confidence information where permitted.
+Display the result only to authorized application reviewers.
+Clearly identify unavailable or failed API analysis.
+Never automatically reject applicants solely because an AI detector produces a high score.
+Treat Sapling as an advisory tool, not proof of misconduct.
+STEP 4: Staff review
+Send a private application review embed into the configured review channel.
+The embed must include:
+Applicant Discord mention.
+Discord ID.
+Roblox username.
+Submission date.
+All 15 answers.
+Application ID.
+Sapling analysis.
+Reviewer status.
+Add interactive buttons:
+[Approve Application]
+[Deny Application]
+[Request More Information]
+[Claim Review]
+When approved:
+Record the approving staff member.
+Update the application status.
+Assign the configured staff role.
+Send the applicant a professional acceptance DM.
+Log the action.
+Prevent duplicate approval.
+When denied:
+Ask the reviewer for a denial reason.
+Record the reviewer and reason.
+Send the applicant a professional denial DM.
+Log the action.
+Update the application status.
+All review actions must be permission-protected.
+Create application history, statistics, and status commands.
+6. SESSION MANAGEMENT SYSTEM
+Build an interactive session management system.
+Create a permanent session panel with:
+Start Session.
+Session Vote.
+Low Population.
+Server Full.
+Session Shutdown.
+Session Information.
+Session voting:
+When a member clicks Vote:
+Display an interactive vote.
+Record their response.
+Prevent duplicate votes.
+Update the vote count.
+Display the results.
+Allow authorized staff to start a session when appropriate.
+Session announcements:
+Create professional WVRP announcement embeds for:
+Session Startup.
+Session Vote.
+Low Population.
+Server Full.
+Session Shutdown.
+Each announcement must have configurable messages and channels.
+Support session history, statistics, staff hosts, and audit logs.
+Never claim a server is full or online using fabricated information.
+7. STAFF MANAGEMENT PANELS
+Build separate interactive staff panels.
+STAFF FEEDBACK:
+Submit feedback about a staff member.
+Select a rating.
+Provide comments.
+Send feedback to a private staff review channel.
+Store feedback in SQLite.
+Restrict access to feedback records.
+STAFF PROMOTIONS:
+Promote a staff member.
+Select their new rank.
+Record previous and new roles.
+Record the reason.
+Record the approving administrator.
+Automatically update configured Discord roles.
+Publish a promotion announcement.
+Maintain promotion history.
+STAFF INFRACTIONS:
+Issue warnings.
+Issue strikes.
+Issue suspensions.
+Record terminations.
+Record retirements.
+Attach evidence links.
+Record reasons.
+Generate unique infraction IDs.
+Allow authorized staff to view and revoke infractions.
+Automatically apply configured roles and permissions.
+STAFF ACTIVITY:
+Track staff shifts.
+Track shift durations.
+Track breaks.
+Track activity statistics.
+Display online and active staff.
+Display leaderboards.
+Generate weekly activity summaries.
+STAFF OF THE WEEK:
+Calculate activity based on configured metrics.
+Allow authorized manual awards.
+Automatically process the weekly award on the configured schedule.
+Publish a professional announcement.
+8. SUPPORT TICKET SYSTEM
+Create a completely functional ticket system.
+Ticket panel dropdown categories:
+General Support.
+High Rank Support.
+Department Support.
+Staff Report.
+Player Report.
+Partnership.
+Other.
+Ticket features:
+Private ticket channels.
+Ticket ownership.
+Staff claiming and unclaiming.
+Add and remove members.
+Rename tickets.
+Set priority.
+Escalate tickets.
+Close tickets.
+Close confirmation.
+Inactivity warnings.
+Ticket audit logs.
+HTML transcripts.
+Transcript access for authorized staff and the ticket opener.
+Store:
+Ticket ID.
+Opener.
+Participants.
+Assigned staff.
+Category.
+Messages.
+Attachments.
+Created date.
+Closed date.
+Resolution.
+Transcript location.
+DIFFERENT AI SUPPORT ASSISTANT
+The AI assistant inside tickets must have its own identity, personality, instructions, and behavior.
+Do not make it behave like the general WVRP management bot.
+Give it a professional, friendly, knowledgeable support-agent personality.
+It should:
+Read relevant ticket conversation context.
+Answer common WVRP questions.
+Explain server procedures.
+Help members understand community rules.
+Direct users to the correct department.
+Ask clarifying questions.
+Recognize when human staff assistance is required.
+Avoid inventing rules, links, or server information.
+Use Groq as the configurable AI provider.
+AI controls:
+Enable/disable per ticket.
+Pause AI.
+Resume AI.
+Staff takeover.
+Conversation context limits.
+Configurable system prompt.
+Configurable model.
+Configurable response behavior.
+The AI must never:
+Approve applications.
+Issue staff punishments.
+Make administrative decisions.
+Expose private staff information.
+Pretend to be a human staff member.
+Ticket messages must only be transmitted to the configured AI provider when the assistant is active and applicable privacy notices are provided.
+9. MARKETPLACE SYSTEM
+Create a dedicated WVRP marketplace panel.
+The marketplace should look like a professional service store.
+Include interactive categories such as:
+Discord Bot Development.
+Discord Server Setup.
+ER:LC Services.
+Graphics and Branding.
+Website Development.
+Custom Services.
+Members should be able to:
+Browse services.
+View descriptions.
+View prices.
+View requirements.
+Select a service.
+Submit an order.
+Receive an order ID.
+Track order status.
+Contact marketplace support.
+Staff should be able to:
+Create listings.
+Edit listings.
+Disable listings.
+Review orders.
+Accept orders.
+Deny orders.
+Update order status.
+Complete orders.
+Log marketplace activity.
+Do not implement fake payment processing. Any payment integration must be explicitly configured and use an approved provider.
+10. COMMUNITY LINKS PANEL
+Create a rich embed containing configurable WVRP community resources.
+Use buttons and dropdown menus to organize links.
+Example categories:
+Discord Invite.
+Roblox Group.
+ER:LC Private Server.
+Community Website.
+Staff Applications.
+Rules and Regulations.
+Support.
+Marketplace.
+Social Media.
+Staff Resources.
+All URLs must come from configuration.
+Never invent URLs.
+11. ER:LC INTEGRATION
+Use the official ER:LC API v2.
+Read the API key from environment variables.
+Support:
+Server information.
+Server status.
+Live players.
+Player teams.
+In-game staff.
+Kill logs.
+Join/leave logs.
+Vehicle information.
+Emergency calls.
+Moderator logs.
+Server commands.
+Announcements.
+If no API key is configured:
+Disable ER:LC-specific functionality.
+Clearly communicate that the integration is unavailable.
+Keep all unrelated Discord functionality operational.
+Never fabricate live information.
+12. ROBLOX AND BLOXLINK
+Implement:
+Roblox username lookup.
+Roblox user IDs.
+Roblox profile links.
+Roblox profile pictures.
+Group membership.
+Group ranks.
+Bloxlink verification lookup.
+Discord-to-Roblox account association.
+Validate all external API responses.
+Do not invent Roblox data.
+13. ADDITIONAL SYSTEMS
+Implement:
+Giveaways.
+AFK system.
+Economy.
+Daily rewards.
+Work rewards.
+Bank.
+Payments.
+Leaderboards.
+Moderation.
+Polls.
+Suggestions.
+Reports.
+Training.
+Departments.
+Staff playtime.
+Server information.
+Member information.
+Help and command directories.
+All systems must have actual implementations.
+14. DATABASE
+Use better-sqlite3.
+Create structured database tables for:
+Tickets.
+Ticket participants.
+Ticket messages or transcript metadata.
+Applications.
+Application answers.
+Sapling analysis.
+Staff.
+Promotions.
+Infractions.
+Staff feedback.
+Shifts.
+Training sessions.
+Training evaluations.
+Departments.
+Giveaways.
+Marketplace listings.
+Marketplace orders.
+Economy accounts.
+Transactions.
+Server settings.
+Audit logs.
+Use database migrations, indexes, foreign keys, transactions, and appropriate validation.
+Data must survive restarts.
+15. PERMISSIONS AND SECURITY
+Create a configurable permissions system.
+Examples:
+Everyone.
+Support Staff.
+Moderators.
+Administrators.
+High Rank.
+Senior High Rank.
+Department Leadership.
+Bot Owner.
+Never rely exclusively on command visibility to enforce permissions.
+Validate permissions server-side for every sensitive action.
+Prevent:
+Unauthorized role changes.
+Unauthorized application decisions.
+Unauthorized ticket access.
+Duplicate submissions.
+Duplicate interactions.
+Unauthorized ER:LC commands.
+SQL injection.
+Token exposure.
+API key exposure.
+Never put secrets inside source code.
+16. ENVIRONMENT CONFIGURATION
+Create a comprehensive .env.example.
+Include placeholders for:
+DISCORD_TOKEN
+CLIENT_ID
+GUILD_ID
+DATABASE_PATH
+DEFAULT_PREFIX
+EMBED_COLOR
+TOP_BANNER_URL
+BOTTOM_BANNER_URL
+ERLC_API_KEY
+GROQ_API_KEY
+GROQ_MODEL
+SAPLING_API_KEY
+BLOXLINK_API_KEY
+APPLICATION_REVIEW_CHANNEL
+APPLICATION_ROLE_ID
+TICKET_CATEGORY_IDS
+STAFF_ROLE_IDS
+SESSION_CHANNEL_ID
+STAFF_LOG_CHANNEL_ID
+MARKETPLACE_CHANNEL_ID
+COMMUNITY_LINKS
+Never place real credentials in the example file.
+17. ERROR HANDLING AND RELIABILITY
+Implement:
+Centralized error handling.
+Structured logging.
+API timeouts.
+Retry logic where safe.
+Rate-limit handling.
+Interaction expiration handling.
+Database error handling.
+Graceful shutdown.
+Startup validation.
+Health checks.
+Persistent buttons and menus.
+Scheduled task recovery after restart.
+Do not silently swallow errors.
+18. PROJECT STRUCTURE
+Use a professional modular project layout.
+Separate:
+Commands.
+Events.
+Interactions.
+Buttons.
+Select menus.
+Modals.
+Services.
+API integrations.
+Database.
+Configuration.
+Utilities.
+Embeds.
+Scheduled jobs.
+Logging.
+Create:
+index.js
+deploy-commands.js
+package.json
+.env.example
+README.md
+database initialization.
+migrations.
+command loaders.
+interaction handlers.
+event handlers.
+testing utilities.
+19. REFERENCE IMAGE WORKFLOW
+I WILL PROVIDE REFERENCE IMAGES AND SCREENSHOTS OF OTHER DISCORD BOTS.
+These images are design and functional references.
+You must:
+Inspect every supplied reference.
+Identify its layout.
+Identify its embed structure.
+Identify its buttons.
+Identify its dropdowns.
+Identify its colors and visual hierarchy.
+Identify the expected interaction behavior.
+Recreate the relevant experience using WVRP branding.
+Implement the actual functionality behind every control.
+Do not blindly copy the reference.
+If I provide a screenshot of an application panel, use it to guide the WVRP application panel.
+If I provide a screenshot of a session panel, use it to guide the WVRP session panel.
+If I provide a screenshot of a ticket system, use it to guide the WVRP ticket system.
+Maintain a reference-to-feature checklist so no supplied reference is forgotten.
+When a reference is ambiguous, ask me before making an important design decision.
+20. DEVELOPMENT AND DELIVERY RULES
+Work on the actual source code.
+Do not deliver:
+Static mockups.
+Fake buttons.
+Fake commands.
+Placeholder API responses.
+Simulated database records.
+Empty command handlers.
+Fake successful deployment messages.
+Do not claim a feature is complete until its implementation and tests are complete.
+Build in organized stages:
+STAGE 1: Project architecture and configuration.
+STAGE 2: Database and core Discord client.
+STAGE 3: Command loading and deployment.
+STAGE 4: Reusable embeds and interactive panels.
+STAGE 5: Tickets and AI support.
+STAGE 6: Applications and Sapling.
+STAGE 7: Staff management.
+STAGE 8: Sessions.
+STAGE 9: ER:LC and Roblox integrations.
+STAGE 10: Marketplace and community systems.
+STAGE 11: Testing, security, and deployment.
+After each stage:
+Show files created.
+Explain what works.
+Explain what remains.
+Run appropriate tests.
+Fix discovered errors before proceeding.
+IMPORTANT: Do not replace the entire project with a frontend website or a dashboard. The primary deliverable is a real Discord bot.
+The finished product must be a functional, production-quality West Virginia Roleplay management bot with a large expanded command catalog, interactive rich embeds, persistent systems, and real integrations. So uhm top banners for all promp infraction and like Pro-0000 INF-0000 Will show top and bottom banner :id: Staff Member: @Dm0ney_4u
+:shield: Punishment: Verbal Warning
+:clip: Appealable: Yes
+:pin: Reason: Please dont dump staff cars in the river, that is considered trolling and such and is unprofessional.
+:NewYork: @Blurryface_293 - INF-0314 and the dm itself to them like this and a  button which is applea infraction and opens a private channel with tthere and it will be using a rivh embed message and the bot sends in the 5 questions Each by one when they reply to one tthey go to tthe nextt one Understand?  and tthe infraction will open a thread so Internal affairs putts Foottage whcih tthe bot will ping the person who infracted who did the command to post in proof and the infraction all that will dm tthem it  when we do the revoke infractions will be like this message :tick: Infraction Revoked
+INF-0307 (Verbal Warning) for @xXEThYTXx was revoked by @syncedscript.
+petty + bypassing isnt that big of a deal anymor And it will like basically react to the messge we going to revoke basically an for promotion tto with tthe Id promo  /promote user: rank: reason:Infraction tto /infraction revoke id: reason:/promotion view id: and for sttaff infomation will be ttop banner and bottom witth saying Staff Dashboard
+This dashboard serves as your central hub for staff resources, policies, procedures, and staff channels. Please review all materials carefully and stay informed of any updates to ensure the highest standards of professionalism.
+Staff Resources
+Staff Panel
+Staff Guide
+Roblox Group
+By accepting a position on the New York City Roleplay Team, you agree to follow all staff policies, handbooks, and procedures. Staff members are expected to maintain professionalism, respect the chain of command, act with integrity, and represent the community positively at all times. Failure to comply with staff expectations may result in disciplinary action or removal from the staff team. and in the middle Staff resources gonna have my Staff panel which I'm use melonly im add the link and Staff guide Im make one Im add a link and for group I'm put my group in it ttraining log is :folder: Training Log
+:person: Trainee: @MasRTC_v4 (honestly_mas)
+:shield: Trainer: @Ronaldoiscat (carlos473)
+:tick: Result: Passed
+:calendar: Date: November 7, 2026 at 3:25 PM
+:pin: Notes
+Did overall good./training start starts_in: notes::promote: Staff Training
+This training session has ended. Thank you to everyone who attended.
+You must complete a training within 7 days of becoming a Trainee, otherwise it will result in an immediate termination.
+How to attend
+Press Join Game below to load into the server
+Go to the Police Team briefing room and wait for your trainer
+Make sure you are wearing the staff uniform
+:shield: Trainer: @Unk0wnS0ULLX
+:clock: Started: 3 hours ago (7:10 PM)
+:pin: Status: Ended
+:calendar: Ended: 3 hours ago after 8 minutes
+:ppl: Attending (0): Nobody yet
+top and bottom banner For results just gonna be adding a bottotm banner but for my training start will have a Join training button green and then Blue that says start training and then when itt starts gonna show me a red button Finish training red and tthen itt will disble the embed to nobody join no more and the other will show a link to join in game Bottom banner  feedbacks staff is ttop and botttom banenr Staff Feedback
+:id: Staff Member: @Lemonsourguy1
+:person: Rated By: @Merry Christmas
+:rate: Rating: 5/5
+:pin: Comment: helping me out with two difficult members highly recommend this server he should get a raise  departments is tp and bottom banner Im have links to all my discord names and then Sort of mafia tto and whitelistted tteams Explore the various Departments within Texas State Roleplay, each offering a unique role and experience within our community. Our departments provide opportunities to get involved, serve the community, and create immersive roleplay experiences. Find your place, build your career, and become part of something bigger.
+applocations now top and bottom banner
+Welcome to the TXRP Application Hub. In this channel you can find all of our applications to apply to work for TXRP! Before applying ensure to read the rules and requirements. Good luck to all applicants!
+:green_information:  Rules & Requirements
+Must be over 13 years old. (TXRP will not require you to provide your age)
+Must answer in full detail and full sentences.
+The use of Artificial Intelligence or external help is not allowed.
+Must answer with good SPaG (Spelling and Grammer)
+Applicants should not ask for applications to be read.
+Must not have a bad history within TXRP or any PRC server. Gonna have Sttaff application will open a rich embed and 15 question and when its done Gonna be saying the sapling tthe pasted or ai So yeah and a message when they see it in private channel and at the end when they done appkiction reviewers gonna See buttons as denied or acceptt and when we click it will send the dm to tthem with top and botttom banner like Results
+We would like to congratulate you on passing your application and becoming a Trainee within our server. Your dedication throughout your application has stood out to us, and has earned you a place in our community!
+Please be on the lookout in our training category for updates and training sessions from our training team, and feel free to ask any questions you may have.
+Once again, congratulations, and welcome to the team @Carlos473
+and denie message so yeah buttons working and all tthat For market place top and botttom banner
+The TXRP Marketplace is your one stop destination for supporting the community while getting your name, brand, or community noticed. Here, you can purchase paid advertisements, sponsor exciting giveaways, make donations, purchase exclusive memberships, and explore a variety of other ways to get involved.
+:green_shopping_cart:  Marketplace Information
+Before purchasing from our marketplace, all customers are required to read, understand and comply with our Marketplace Terms Of Service. Please Note: Texas State Roleplay DOES NOT sell access to in-game ER:LC content.
+the right side gonna have a green check tterms of service when clicked will see By purchasing any product, service, membership, advertisement, sponsorship, or other offering through the Texas State Roleplay Marketplace, you confirm that you have read, understood, and agreed to the following Terms of Service.
+01 — ORDER QUEUE
+All orders, requests, and submissions are processed in the order they are received. Processing times may vary depending on current demand and staff availability.
+02 — RESPECT & CONDUCT
+We maintain a respectful environment for both customers and staff. Harassment, abuse, threats, discrimination, or disrespectful behavior toward staff or community members will not be tolerated and may result in service denial without compensation.
+03 — LINKS & REQUIRED ASSETS
+Customers are responsible for providing valid and accessible files, links, information, and other required assets. If submitted assets expire, become inaccessible, or are missing before your order can be completed, your order may be delayed until suitable replacements are provided.
+04 — ORDER CHANGES
+Any changes or revisions to an order must be requested before work begins. Requests made after work has started may incur additional fees or may not be possible, depending on the stage of completion.
+05 — CLAIMING PURCHASES
+All purchases, rewards, services, and other marketplace items must be claimed through an official Support Ticket, unless otherwise specified.
+06 — PROCESSING & RESPONSE TIMES
+Estimated completion and response times are not guaranteed. Delays may occur due to high order volume, staff availability, technical issues, or circumstances outside of our control.
+07 — REFUNDS & CANCELLATIONS
+All purchases are final. We do not offer refunds under any circumstances. Where appropriate, we may, at our sole discretion, provide an alternative solution, replacement, or store credit.
+08 — CHARGEBACKS
+Initiating a chargeback after receiving a product, service, or other purchased benefit may result in permanent removal from the Marketplace and associated services, in addition to any other action deemed appropriate.
+09 — RIGHT TO REFUSE SERVICE
+We reserve the right to refuse, suspend, or terminate service to any individual who violates these Terms of Service or engages in harmful, abusive, fraudulent, deceptive, or otherwise inappropriate behavior. TXRP Ownership also hold the right to refuse or suspend service for minority setbacks or insubordination.
+10 — RESPONSIBILITY
+Texas State Roleplay IS NOT responsible to pay the prizes of your giveaways or ADs. Texas State Roleplay IS NOT responsible for incorrect assets, unsatisfied results or other misconceptions.
+ACKNOWLEDGEMENT
+By completing a purchase through the Texas State Roleplay Marketplace, you acknowledge that you have read, understood, and agreed to these Terms of Service. It is your responsibility to review these terms before making a purchase. :Shouts: Paid Advertisements!
+@Everyone Ping Paid Advertisement
+:DropDownArrow: Send your ad in ⁠「💰」paid-ads with an @everyone ping which reaches the entire server, offering maximum visibility and impressions.
+Here Ping Paid Advertisement
+:DropDownArrow: Send your ad in ⁠「💰」paid-ads with a @here ping which reaches all online members at the time, offering great value for active engagement.
+Regular Paid Advertisement
+:DropDownArrow: Send your ad in ⁠「💰」paid-ads, offering great value for engagement from our dedicated community supporters.
+:staff_star: Sponsored Giveaways!
+@Everyone Ping Sponsored Giveaway
+:DropDownArrow: Host a giveaway in ⁠「🎁」giveaways, with the minimum prize of 500 Robux. All particapants will be required to join your server. Sent with an @everyone ping, reaching the entire server for maxmimum visibility.
+Here Ping Sponsored Giveaway
+:DropDownArrow: Host a giveaway in ⁠「🎁」giveaways, with the minimum prize of 500 Robux. All particapants will be required to join your server. Sent with an @here and @Giveaways ping, reaching all online members for amazing engagement.
+Regular Sponsored Giveaway
+:DropDownArrow: Host a giveaway in ⁠「🎁」giveaways, with the minimum prize of 500 Robux. All particapants will be required to join your server. Not sent with a ping, offering great visibility from our core members.Im add tthe server ids or links and the channels links :announcements2: Packages
+Custom Discord Office (Voice Channel)
+:DropDownArrow: Receive a custom discord voice channel with the name and emoji of your choice. You may also toggle who can join this VC. All customisable options must follow TOS.
+VIP Package
+:DropDownArrow: Recieve the exclusive @VIP role, access to VIP only channels, get sneak peaks of early server updates and enter in VIP only giveaways.
+Texas Regular  Merchandise Hoodie
+:DropDownArrow: Receive an amazing TXRP orientated hoodie from the roblox market place to wear in game!
+TXRP Christmas Hoodie 🎄LIMITED EDITION
+:DropDownArrow: Receive an amazing TXRP orientated christmas hoodie to keep you cozy!
+Texas+ Membership
+:DropDownArrow: Receive the exclusive @Texas+ role, access to a Texas+ only category and receive server updates early!
+:cm: Donations
+:DropDownArrow: All donations admitted to Texas State Roleplay, is repleneshed back into our server and goes towards server initatives that keep the server growing! All donators are recognised and recieve access to a donator only category aswell as server updates early!
+500 Robux Donation
+:DropDownArrow: Receive the exclusive @Donator I role and access to the Donator only category.
+1000 Robux Donation
+:DropDownArrow: Receive the exclusive @Donator II role and access to the Donator only category.
+1500 Robux Donation
+:DropDownArrow: Receive the exclusive @Donator III role and access to the Donator only category. this same thing this same tthing :Animatedbooster: Booster Perks!
+Our discord server boosters recieve the following perks!
+Exclusive @Community Booster Role
+Exotic Vehicles Bypass
+Gif & Emoji Permissions
+Booster only chat & supporter only category
+Priority suggestions
+Recieve server updates early
+Supporter Lounge VC
+Custom Nickname permissions
+:ftteam: Advanced Roleplayer  Perks!
+Once surpassing 100 hours in our in-game server, you can unlock the following perks!
+Exclusive @Advanced Roleplayer Role
+In-Game helper permissions
+Exotic Vehicles Bypass
+Suggestion Priority
+In-Game Updates early prioritty postage Link to roblox shirt or gamepass  support Is now top and bottom banenr tickettpanel Welcome to the :Ticket~2: Texas Support Center! Click Get Support and our system will direct your ticket to the right place!
+Support Options
+Discord Reports — For reporting a Discord member for breaking server rules.
+General Support — For general questions and concerns not related to staff.
+Internal Affairs / Reports — For reporting staff members or handling Internal Affairs-related matters.
+Management Tickets — For giveaways, partnerships, server proposals, contacting server ownership, or reporting IA+ members.
+LT Support — For extensive issues such as reporting SHRs, major bugs, or threats such as server raids. This should be used for livery submissions as well.
+Department Coordination — For coordinating between in-game departments.
+Purchase Redemption — For redeeming purchases made from the Texas State Roleplay community store.
+Guidelines
+Please be respectful to the handler
+Please do not constantly ping staff
+Please give clear information upon opening
+Please do not mis-use the ticket system Gonna have drop downs for   frequently asked questions gonna have How do I apply for staff? Can I open a new department? Are yoi accepting staff ttransfers/fast passes? How I join the sheriff team. and each one will have  How do I apply for staff?
+Staff applications are filled out on our website: https://txrp.aftch.org/apply
+Sign in with Discord, answer the questions, and the result is sent to you by DM. The application is also linked in ⁠「📝」applications.I dont have a website so no website Im add the application id channel Can I open a new department?
+New departments are decided by server ownership. If you have a proposal, press Get Support and describe the department you have in mind — server proposals are handled by the Management Team.Are you accepting staff transfers/fast passes?
+Yes. Press Get Support and say you would like to transfer or fastpass — your ticket opens with the form to fill in, and you will be asked for proof of experience.
+Transfers and fastpasses are available up to Internal Affairs. Ranks above Internal Affairs cannot be obtained through a transfer or fastpass — they are earned in the normal way. How do I join the sheriff team?
+The Sheriff Team is the only fully whitelisted team: it is for staff and whitelisted members. Joining the staff team is the way onto it — pick How do I apply for staff? from this menu. If you are already staff or whitelisted and cannot join it, press Get Support. and it will now have another dropdowns that wikl be now Choose your category  General supportt High rank support and Department support General I'm have a role for only admins and high rank internal affairs or high rank role and departtment Management role or senior high rank and directtive one is only for directives  tthe ttickets should be like this when created  top and bottom banner @Support Team
+:cog: General Support
+Hello @Ronaldoiscat thank you for reaching out to us. Please remain patient as one of our staff members comes to assist you.
+:roblox: Roblox Information:
+Roblox Username: ronaldoiscat
+Roblox ID: 2056966914
+Account Creation: Dec 3, 01:47 PM
+:dc: Discord Information:
+Discord Account: @Ronaldoiscat
+Discord ID: 1025813762684502168
+Account Creation: Oct 1, 09:57 AM
+What is your inquiry?
+Idk if this even true what joseph mention. Inside I want basically the role to be pinged only u know Gonan have buttons like  Claim will be green and Unclaim will turn when somebdo yclicks unclaim green shows unclaim and x mark close And escale button to escalate it bettweeen high rank or Directtives  when they about to open a ticket they see a little box tto say there inquiry  ai assistance is like # WEST VIRGINIA ROLEPLAY — GROQ AI STAFF HELPER ASSISTANT
+Build a professional, intelligent Staff Helper AI system for my existing WVRP Discord bot.
+IMPORTANT:
+Use Groq as the AI provider.
+Integrate into my existing ticket system.
+Do not replace or rename any existing commands.
+Preserve all existing ticket categories, buttons, dropdowns, permissions, and workflows.
+This must be an actual functioning Discord AI assistant, not a mockup.
+1. PURPOSE
+The WVRP Staff Helper AI is designed to assist members when human staff are busy or when many tickets are open simultaneously.
+The AI should:
+Respond to common support questions.
+Explain WVRP rules and procedures.
+Help members navigate the community.
+Assist with department questions.
+Explain applications and requirements.
+Provide basic ER:LC assistance.
+Direct members to the correct department.
+Summarize conversations for staff.
+Escalate complicated issues to human staff.
+The AI must behave like a professional WVRP staff helper, not a generic chatbot.
+2. GROQ INTEGRATION
+Use Groq's official API.
+Environment variables:
+GROQ_API_KEY=
+GROQ_MODEL=
+Requirements:
+Read credentials from .env.
+Use configurable models.
+Handle API timeouts.
+Handle rate limits.
+Handle unavailable models.
+Handle invalid API responses.
+Never expose API keys.
+Never crash the Discord bot when Groq is unavailable.
+Use configurable request limits and concurrency controls to prevent overwhelming Groq when many tickets are open.
+3. TICKET OVERLOAD MANAGEMENT
+When many tickets are open, the AI should help handle routine questions so human staff can focus on complicated cases.
+Implement:
+Per-ticket AI sessions.
+Configurable AI concurrency limits.
+Request queues.
+Rate limits.
+Independent conversation histories.
+Ticket-specific context.
+Automatic escalation.
+Never allow one ticket's conversation to leak into another ticket.
+Do not automatically assume every ticket needs AI assistance.
+4. AI HANDOFF MESSAGE
+If Groq cannot be reached, the AI encounters an unrecoverable error, or it cannot safely answer a question, send this exact message:
+"I can't reply right now, so a human staff member will assist you shortly.
+Summary for staff: The AI couldn't be reached."
+Include a small footer:
+AI Assistant · Handed to staff
+The handoff must:
+Mark the ticket as requiring human assistance.
+Save the handoff reason.
+Notify the appropriate staff team.
+Stop AI responses in that ticket.
+Allow human staff to take over normally.
+Do not repeatedly send the same error message.
+5. AUTOMATIC HUMAN TAKEOVER
+This is extremely important.
+When a human staff member sends a genuine support response in a ticket that the AI has handed over:
+Detect the human staff response.
+Change the ticket AI status to HUMAN_TAKEOVER.
+Stop the AI from generating further responses.
+Do not interrupt the staff member.
+Do not reply over staff messages.
+Keep the AI conversation history available for staff.
+Record who took over and when.
+Once a human staff member takes over, the AI must remain silent for the rest of that ticket unless an authorized staff member explicitly re-enables it.
+Bot messages, webhooks, and other automated messages must not accidentally trigger human takeover.
+6. AI STAFF CONTROLS
+Add staff-only controls to tickets:
+Pause AI.
+Resume AI.
+Disable AI.
+Enable AI.
+Take Over Ticket.
+Request AI Summary.
+Only authorized staff members may use these controls.
+When staff takes over, display:
+AI Assistant · Human Staff Takeover
+When AI is paused, display:
+AI Assistant · Paused by Staff
+When AI is disabled, display:
+AI Assistant · Disabled
+7. AI CONVERSATION BEHAVIOR
+The AI should:
+Read only the current ticket's authorized conversation history.
+Understand previous messages.
+Avoid repeating answers.
+Ask clarifying questions.
+Use short, helpful responses.
+Remain respectful and professional.
+Never claim to be a human employee.
+Never invent WVRP policies.
+Never promise staff actions it cannot perform.
+If the answer is not in the approved WVRP knowledge base, it should escalate instead of guessing.
+8. STAFF HANDOFF SUMMARIES
+When escalating, generate a concise internal summary containing:
+Ticket number.
+Ticket category.
+Member username.
+Member's issue.
+Questions asked.
+Answers already provided.
+Reason for escalation.
+Any unresolved questions.
+Suggested next step.
+Display this summary in a staff-only message or staff-visible ticket embed.
+Never expose internal summaries to unauthorized ticket participants.
+9. KNOWLEDGE BASE
+Create a configurable WVRP knowledge base.
+Include:
+Community rules.
+Ticket procedures.
+Department information.
+Staff application information.
+Training information.
+Session procedures.
+ER:LC server information.
+Frequently asked questions.
+Marketplace information.
+Allow authorized administrators to update the knowledge base without editing source code.
+The AI must prioritize approved knowledge over general model knowledge.
+10. TICKET AI STATUS DATABASE
+Use SQLite to persist:
+Ticket ID.
+AI enabled status.
+AI paused status.
+Human takeover status.
+Conversation history.
+Handoff reason.
+Handoff timestamp.
+Staff takeover ID.
+Last AI response.
+Request failure count.
+Use persistent state so restarting the bot does not reactivate AI in tickets that have already been handed to staff.
+11. IMPORTANT SAFETY AND PERMISSIONS
+The AI must NEVER:
+Issue punishments.
+Ban or kick members.
+Approve or deny applications.
+Approve or deny appeals.
+Change roles.
+Reveal private staff discussions.
+Access unrelated tickets.
+Make binding administrative decisions.
+Override human staff.
+Only human staff may make administrative decisions.
+12. FINAL REQUIREMENTS
+Integrate the Staff Helper AI into my existing WVRP ticket system.
+Use Groq for AI responses.
+Keep all existing ticket commands and functionality.
+Make every staff control functional.
+Ensure that AI handoff works correctly.
+MOST IMPORTANT BEHAVIOR:
+When AI cannot respond, send the exact fallback message and hand the ticket to staff.
+When a human staff member responds, automatically stop AI responses in that ticket.
+The AI must never compete with human staff or continue talking after a human takeover.
+Deliver working code, SQLite persistence, configuration, and testing.  and mesages like :tick: @joseph5g12345 has now claimed this ticket. and unclaim or even escalte to high rank or directives or even Add user :tick: @Kingplayz1782 has been added to this ticket by @Bitcoin_gv.
+And it will now send No top banner when dm or bototm banner But ticket creatttion yes ttop and bottom banenr and tthe inquiry will show under the bottom prompt ebven betttter And the transcript Ticket #0850 — General Support
+General Support ticket in New York City Roleplay has been closed.
+:reply_arrow: Handled By: :id: @I_amvoid
+:reply_arrow: Closed By: :id: @I_amvoid
+:clock: Opened: November 7, 2026 at 7:04 PM
+:clock: Closed: 3 hours ago
+:i_hourglass: Duration: 21m
+:i_ticket: Messages Sent: 22 messages will have it's own button Online transcript # WEST VIRGINIA ROLEPLAY — COOKIE API TICKET TRANSCRIPTS
+Integrate Cookie API into my EXISTING WVRP Discord bot to provide professional, automatic ticket transcripts.
+IMPORTANT:
+Do not rebuild my ticket system.
+Do not remove or rename any existing ticket commands.
+Preserve all existing ticket categories, buttons, dropdowns, permissions, and workflows.
+Keep my existing WVRP embed design and screenshot references.
+Use Cookie API for transcript generation.
+Implement actual functionality, not mockups or placeholder responses.
+1. COOKIE API INTEGRATION
+Use the official Cookie API documentation and supported endpoints.
+Before implementing:
+Identify the correct API authentication method.
+Verify transcript creation endpoints.
+Verify supported request parameters.
+Verify response formats.
+Verify transcript retrieval and URL behavior.
+Do not invent API endpoints.
+Store credentials in .env:
+COOKIE_API_KEY=
+COOKIE_API_BASE_URL=
+Never expose API credentials in Discord messages, logs, or source code.
+2. AUTOMATIC TRANSCRIPT GENERATION
+Whenever a WVRP ticket is closed, automatically:
+Stop accepting new ticket requests.
+Collect the ticket's accessible message history.
+Include relevant attachments and embed information where supported.
+Generate a transcript through Cookie API.
+Retrieve the generated transcript URL.
+Save transcript metadata in SQLite.
+Send the transcript to the configured transcript log channel.
+Notify the ticket opener with the transcript link when permitted.
+Generate transcripts for:
+General Support.
+High Rank Support.
+Department Support.
+Staff Reports.
+Player Reports.
+Other configured ticket categories.
+3. TRANSCRIPT CONTENT
+Include:
+Ticket ID.
+Ticket channel name.
+Ticket category.
+Ticket opener.
+Ticket creator ID.
+Assigned staff member.
+Claimed/unclaimed history.
+Ticket creation date.
+Ticket closure date.
+Closing staff member.
+All accessible messages.
+Message timestamps.
+Author names and IDs.
+Attachments.
+Supported embeds.
+Relevant ticket actions.
+Preserve chronological order.
+4. TRANSCRIPT DELIVERY
+After successful generation, send a professional WVRP embed to the transcript logging channel.
+Example:
+WVRP | Ticket Transcript
+Ticket: #ticket-1234
+Category: General Support
+Opened By: @Member
+Closed By: @StaffMember
+Transcript: [View Transcript]
+Include WVRP branding and the configured embed color.
+Send the ticket opener a private message with the transcript link if their privacy settings allow it.
+Do not expose private staff-only notes or internal AI summaries in public transcripts.
+5. TRANSCRIPT ACCESS
+Implement permissions so:
+Ticket opener can access their transcript where the provider supports appropriate access.
+Authorized ticket staff can access transcripts.
+Administrators can retrieve historical transcripts.
+Unauthorized members cannot retrieve private ticket transcripts.
+Do not assume a transcript URL is private unless Cookie API provides that guarantee.
+6. DATABASE
+Use SQLite to store:
+Ticket ID.
+Cookie transcript ID.
+Transcript URL.
+Ticket opener ID.
+Closing staff ID.
+Creation timestamp.
+Closure timestamp.
+Transcript generation status.
+Error information.
+Prevent duplicate transcript generation when the close event runs more than once.
+7. ERROR HANDLING
+If Cookie API is unavailable:
+Do not crash the bot.
+Preserve the ticket's message history.
+Record the failure.
+Notify authorized staff.
+Retry safely when appropriate.
+Provide an alternative transcript generation method only if implemented and tested.
+Never report that a transcript was generated when Cookie API failed.
+8. EXISTING TICKET COMMANDS
+Keep all existing commands:
+-ticketpanel
+-ticketbl
+-ticketunbl
+-testidle
+/ticket add
+/ticket remove
+/ticket claim
+/ticket unclaim
+/ticket close
+/ticket rename
+/ticket close-request
+Integrate transcript generation into the existing /ticket close workflow and all other supported ticket closure methods.
+9. TESTING
+Test:
+Successful transcript generation.
+Empty tickets.
+Large tickets.
+Tickets containing attachments.
+Tickets with embeds.
+Repeated close events.
+Cookie API downtime.
+Missing API credentials.
+Permission restrictions.
+Bot restarts during transcript generation.
+FINAL REQUIREMENT
+I want Cookie API to handle professional automatic ticket transcripts throughout my existing WVRP ticket system.
+Preserve my existing commands, designs, references, and functionality.
+Do not replace working features or fabricate successful API responses.
+Deliver the actual implementation, configuration, database changes, and testing results. and for applications Answer every question fully and honestly — quality matters more than speed.
+Use proper spelling, punctuation, and grammar throughout.
+Asking staff to speed up or read your application early results in an automatic denial.
+You can only have one pending application at a time.
+What is your full Roblox username?
+What device do you play on?
+What is your time zone?
+How many hours can you moderate per week?
+WRITE IN DETAIL AND FULL SENTENCES
+Do you have any prior staff or moderation experience? If so, where?
+WRITE IN DETAIL AND FULL SENTENCES
+WRITE IN DETAIL AND FULL SENTENCES
+Why do you want to join the TXRP staff team?
+WRITE IN DETAIL AND FULL SENTENCES
+WRITE IN DETAIL AND FULL SENTENCES
+What is RDM, and how would you handle it if someone broke this rule?
+WRITE IN DETAIL AND FULL SENTENCES
+WRITE IN DETAIL AND FULL SENTENCES
+What is VDM, and how would you handle it if someone broke this rule?
+WRITE IN DETAIL AND FULL SENTENCES
+WRITE IN DETAIL AND FULL SENTENCES
+What is LTAP, and how would you handle it if someone broke this rule?
+WRITE IN DETAIL AND FULL SENTENCES
+WRITE IN DETAIL AND FULL SENTENCES
+What is FRP, and how would you handle it if someone broke this rule?
+WRITE IN DETAIL AND FULL SENTENCES
+WRITE IN DETAIL AND FULL SENTENCES
+What is NLR, and how would you handle it if someone broke this rule?
+WRITE IN DETAIL AND FULL SENTENCES
+WRITE IN DETAIL AND FULL SENTENCES
+What is the punishment if someone rejoins right after being kicked?
+WRITE IN DETAIL AND FULL SENTENCES
+WRITE IN DETAIL AND FULL SENTENCES
+A player is spamming the in-game chat with inappropriate language after multiple warnings. Walk through exactly what you would do, step by step.
+WRITE IN DETAIL AND FULL SENTENCES
+WRITE IN DETAIL AND FULL SENTENCES
+Do you understand that you must remain professional at all times, both in-game and in Discord?
+Yes
+No
+Do you understand that asking staff to speed up or read your application will result in an automatic denial?
+Yes
+No
+Do you understand this application is graded on spelling, punctuation, and grammar?
+Yes
+No
+Is there anything else you'd like us to know?
+If not, put N/A.
+WEST VIRGINIA ROLEPLAY (WVRP)
+OFFICIAL ER:LC API V2 — COMPLETE INTEGRATION
+You are working on my EXISTING West Virginia Roleplay Discord bot.
+I am providing the official ER:LC API v2 documentation. Use the exact endpoints, headers, query parameters, request bodies, and response properties documented below.
+CRITICAL:
+Preserve my entire existing command catalog.
+Do not rename, remove, or replace any existing commands.
+Keep my prefix as -.
+Keep all existing slash commands and subcommands.
+Keep my existing ticket, staff, application, session, and other systems.
+Keep my reference screenshots as the design and functionality requirements.
+Add functionality to my existing project instead of rebuilding it.
+1. API AUTHENTICATION
+Official API base URL:
+https://api.erlc.gg/v2
+Read the API key from:
+ERLC_API_KEY=
+All requests must include:
+server-key: YOUR_API_KEY
+For server information:
+GET /server
+For executing in-game commands:
+POST /server/command
+POST request body:
+{
+"command": ":h Hey everyone!"
+}
+Optional Authorization header is only required when implementing a registered public application. Do not add it unnecessarily.
+Never expose the server key.
+2. SERVER INFORMATION
+Use:
+GET /server
+Display the actual API response:
+Name
+OwnerId
+CoOwnerIds
+CurrentPlayers
+MaxPlayers
+JoinKey
+AccVerifiedReq
+TeamBalance
+Implement my existing commands:
+-erlc info
+/erlc info
+Create a professional WVRP server information embed.
+Show live player count and server information.
+3. PLAYER INFORMATION
+Use:
+GET /server?Players=true
+Response properties:
+Players.Team
+Players.Player
+Players.Callsign
+Players.Location
+Players.Permission
+Players.WantedStars
+Implement:
+/erlc players
+Display:
+Username and Roblox ID.
+Team.
+Callsign, when available.
+Permission.
+Wanted stars.
+Location.
+Postal code.
+Street name.
+Building number.
+Add pagination, team filters, and refresh buttons.
+4. IN-GAME STAFF
+Use:
+GET /server?Staff=true
+Read:
+Staff.Admins
+Staff.Mods
+Staff.Helpers
+Implement:
+/erlc staff
+Display separate sections for:
+Server Administrators.
+Server Moderators.
+Server Helpers.
+Show Roblox user IDs and usernames.
+Do not confuse in-game staff with Discord staff roles.
+5. JOIN LOGS
+Use:
+GET /server?JoinLogs=true
+Read:
+JoinLogs.Join
+JoinLogs.Timestamp
+JoinLogs.Player
+Implement actual join and leave monitoring.
+Use Join=true for joins and Join=false for departures.
+Send WVRP-branded embeds into the configured Discord logging channel.
+Prevent duplicate events.
+6. QUEUE INFORMATION
+Use:
+GET /server?Queue=true
+Display the returned queue information.
+Integrate queue information into:
+/erlc info
+The ER:LC dashboard panel.
+7. KILL LOGS
+Use:
+GET /server?KillLogs=true
+Read:
+KillLogs.Killed
+KillLogs.Timestamp
+KillLogs.Killer
+Send kill logs to the configured Discord channel.
+Include killer, victim, and timestamp.
+8. COMMAND LOGS
+Use:
+GET /server?CommandLogs=true
+Read:
+CommandLogs.Player
+CommandLogs.Timestamp
+CommandLogs.Command
+Create a command-log monitoring system.
+Display the player, executed command, and timestamp.
+9. MODERATOR CALLS
+Use:
+GET /server?ModCalls=true
+Read:
+ModCalls.Caller
+ModCalls.Moderator
+ModCalls.Timestamp
+Display moderator call history.
+Handle null moderators correctly.
+Create a dedicated moderator-call logging channel.
+10. EMERGENCY CALLS
+Use:
+GET /server?EmergencyCalls=true
+Read:
+EmergencyCalls.Team
+EmergencyCalls.Caller
+EmergencyCalls.Players
+EmergencyCalls.Position
+EmergencyCalls.StartedAt
+EmergencyCalls.CallNumber
+EmergencyCalls.Description
+EmergencyCalls.PositionDescriptor
+Create a professional emergency call embed.
+Display:
+Call number.
+Team.
+Caller.
+Responding players.
+Position.
+Location description.
+Call description.
+Start time.
+Create a dedicated emergency call logging channel.
+11. VEHICLE INFORMATION
+Use:
+GET /server?Vehicles=true
+Read:
+Vehicles.Name
+Vehicles.Owner
+Vehicles.Plate
+Vehicles.Texture
+Vehicles.ColorHex
+Vehicles.ColorName
+Implement vehicle information displays and vehicle logging.
+Handle null texture values correctly.
+12. OPTIMIZED API REQUESTS
+The API allows multiple optional query parameters in one request.
+When requesting all supported information, use:
+GET /server?Players=true&Staff=true&JoinLogs=true&Queue=true&KillLogs=true&CommandLogs=true&ModCalls=true&EmergencyCalls=true&Vehicles=true
+Do not make nine separate requests when one combined request can provide the required information.
+However, use selective queries when only one type of information is needed.
+Create a reusable API service with:
+Authentication.
+Timeouts.
+Response validation.
+Error handling.
+Rate-limit handling.
+Request deduplication.
+Safe retry behavior.
+Logging.
+13. EXECUTING IN-GAME COMMANDS
+Use:
+POST /server/command
+Request:
+{
+"command": "ACTUAL_ERLC_COMMAND"
+}
+Response:
+{
+"message": "Success"
+}
+Integrate this into my existing:
+/erlc run
+Allow authorized staff to execute supported in-game commands.
+Requirements:
+Permission checks.
+Input validation.
+Confirmation for sensitive actions.
+Execution result embeds.
+Staff audit logs.
+API error handling.
+Never report success unless the API confirms it.
+14. WVRP SESSION SYSTEM
+Preserve my existing session commands:
+/session vote
+/session startup
+/session shutdown
+/session low
+/session full
+-sessionpanel
+Create a fully interactive session panel matching the screenshots I provide.
+Buttons:
+Session Vote.
+Session Startup.
+Low Population.
+Server Full.
+Session Shutdown.
+Session Information.
+Connect the session system to actual ER:LC server information.
+Examples:
+Session Information displays actual server status and player count.
+Session Startup can display the server's current population.
+Server Full can display current and maximum player counts.
+Low Population can display actual population.
+Do not automatically announce a session startup merely because the server is online.
+Require authorized staff confirmation for administrative session announcements.
+Persist session history and votes in SQLite.
+Prevent duplicate votes.
+15. AUTOMATIC SERVER MONITORING
+Create a configurable monitoring service.
+Default polling interval:
+15 seconds, subject to official API rate limits and appropriate request handling.
+Monitor:
+Player count.
+Server status when reliably available.
+Join and leave events.
+Kill logs.
+Command logs.
+Moderator calls.
+Emergency calls.
+Vehicles.
+Staff information.
+Compare successive API responses to identify new events.
+Do not repeatedly send the same event.
+Store event identifiers or stable event fingerprints in SQLite.
+If the API does not provide unique event IDs, implement careful deduplication using available event fields and timestamps.
+16. DISCORD LOGGING CHANNELS
+Use configurable channel IDs:
+ERLC_SERVER_LOGS=
+ERLC_JOIN_LOGS=
+ERLC_LEAVE_LOGS=
+ERLC_KILL_LOGS=
+ERLC_COMMAND_LOGS=
+ERLC_MODCALL_LOGS=
+ERLC_EMERGENCY_LOGS=
+ERLC_VEHICLE_LOGS=
+All embeds must use WVRP branding and my existing embed design references.
+17. INTERACTIVE ER:LC PANEL
+Create a permanent ER:LC dashboard panel.
+Display:
+Server name.
+Current players.
+Maximum players.
+Queue.
+Join key, only where authorized.
+Account verification requirement.
+Team balance.
+Last successful API update.
+Buttons:
+Refresh.
+Players.
+Staff.
+Join Logs.
+Kill Logs.
+Command Logs.
+Emergency Calls.
+Vehicles.
+Use dropdowns and pagination for larger datasets.
+All controls must work.
+18. DATABASE
+Use my existing SQLite database.
+Persist:
+Session records.
+Session votes.
+Server snapshots.
+Processed log events.
+Monitoring state.
+API status.
+Last successful request.
+Relevant audit records.
+Do not delete or overwrite existing database information.
+19. IMPORTANT API LIMITATIONS
+Only implement functionality supported by the documentation.
+Do not invent:
+Player kick endpoints.
+Ban endpoints.
+Whitelist endpoints.
+Separate vehicle endpoints.
+Separate staff endpoints.
+Unsupported session controls.
+Use documented GET and POST endpoints only unless additional official documentation is supplied.
+If a feature is not supported, explain the limitation clearly.
+20. FINAL DEVELOPMENT REQUIREMENTS
+Inspect my existing bot before implementing anything.
+Preserve every existing command and system.
+Use the exact API response property names documented above.
+Build reusable API services and integrate them into my existing command handlers.
+Use actual API information rather than mock data.
+Test all commands, buttons, monitoring, database persistence, permissions, and error handling.
+Do not claim anything is complete unless it has actually been implemented and tested.
+FINAL OBJECTIVE:
+My existing WVRP Discord bot must have a complete official ER:LC API v2 integration, connected to my existing commands, session system, staff systems, logging channels, and reference-based Discord panels.  :i_skull: Kill Logs
+Antioneb8 was killed by Centex144Ro
+11/7/26 7:57:34 PM and shows how many kills they kileld For all Logging api basically to have something like this   and when ticket Should be General-0000 High rank-0000 Etc And green buttton cliced claim turned the green and red is unclaim geet it now ? promotions is like 
+:id: Staff Member: @taranbatmann
+:promote: Promotion: @Trial Administrator
+
+:pin: Reason: Fast Pass
+:NewYork: @literallyihn - PRO-0129 infraction :id: Staff Member: @Dm0ney_4u
+:shield: Punishment: Verbal Warning
+:clip: Appealable: Yes
+
+:pin: Reason: Please dont dump staff cars in the river, that is considered trolling and such and is unprofessional.
+:NewYork: @Blurryface_293 - INF-0314 top banner and bottom for infraction adn promo and it opens a thread and itt will ping the one who made the command to psott evidence and hen tthat infraction will send a dm to the person  and staff information top banner and bottom banner Staff Dashboard
+This dashboard serves as your central hub for staff resources, policies, procedures, and staff channels. Please review all materials carefully and stay informed of any updates to ensure the highest standards of professionalism.
+Staff Resources
+Staff Panel
+Staff Guide
+Roblox Group
+By accepting a position on the New York City Roleplay Team, you agree to follow all staff policies, handbooks, and procedures. Staff members are expected to maintain professionalism, respect the chain of command, act with integrity, and represent the community positively at all times. Failure to comply with staff expectations may result in disciplinary action or removal from the staff team. I will add the staff Panel link and guide link adn roblox group link top and bottom banner training log is :folder: Training Log
+:person: Trainee: @MasRTC_v4 (honestly_mas)
+:shield: Trainer: @Ronaldoiscat (carlos473)
+:tick: Result: Passed
+:calendar: Date: November 7, 2026 at 3:25 PM
+:pin: Notes
+Did overall good. bottom banner /training start starts_in: notes: tthis will look like too banner nad b ottom abnner :promote: Staff Training
+This training session has ended. Thank you to everyone who attended.
+You must complete a training within 7 days of becoming a Trainee, otherwise it will result in an immediate termination.
+How to attend
+Press Join Game below to load into the server
+Go to the Police Team briefing room and wait for your trainer
+Make sure you are wearing the staff uniform
+:shield: Trainer: @Unk0wnS0ULLX
+:clock: Started: 3 hours ago (7:10 PM)
+:pin: Status: Ended
+:calendar: Ended: 3 hours ago after 8 minutes
+:ppl: Attending (0): Nobody yet
+This training has finished. Keep an eye out for the next one. gonna have actual buttons  Check mark join training Red button End training and another button Join game and when omeomne clicks join ttraiining Will update tthe attending users and when the same  End training has a start training button And tthe status embed will change whenever we Start it or end itt and results will not be dmed Butt for the applicattions buttom and top banner  denied or accept like this and tickets how itt will get received dms basically someone closes or request closing sends itt like top banner and bottttom banner button online trnacript gonna use cookie api  Ticket #6492 — General Support
+Your General Support ticket has been closed.
+:Downarrow: Handled By: @Star_Rock13
+:Downarrow: Closed By: @Star_Rock13
+:Time: Opened: October 24, 2026 at 8:41 PM
+:Time: Closed: 14 days ago
+:Time: Duration: 6m
+:Ticket: Messages Sent: 20 messages the person whoever claimed it and closed by to # WVRP — COMPLETE DISCORD BOT COMMANDS & SHIFT MANAGEMENT IMPLEMENTATION
+
+Build and finish the existing **West Virginia Roleplay (WVRP)** Discord bot. This is an implementation task, not a mockup or redesign exercise.
+
+**CRITICAL:** Every command listed below must exist and work. Do not remove, rename, simplify, replace, or overlook any command. Preserve the existing repository, command architecture, database, integrations, and functionality. Do not create fake responses or buttons that do nothing.
+
+## 1. COMMAND CATALOG — REQUIRED
+
+Implement and verify every command below, with the exact names, command groups, and permission levels specified.
+
+### Tickets
+
+**Support Staff / Administrators where applicable**
+- `-ticketpanel` — Post the ticket panel (admin).
+- `-ticketbl` — Block someone from opening tickets.
+- `-ticketunbl` — Unblock someone from opening tickets.
+- `-testidle [time]` — Test the inactive-ticket warning in a ticket, e.g. `2m`.
+- `/ticket add` — Add a user to a ticket.
+- `/ticket remove` — Remove a user from a ticket.
+- `/ticket claim` — Claim a ticket.
+- `/ticket unclaim` — Unclaim a ticket.
+- `/ticket close` — Close a ticket.
+- `/ticket rename` — Rename a ticket.
+- `/ticket close-request` — Ask the ticket opener to confirm closing.
+
+### Sessions
+
+**Administrators**
+- `/session vote` — Start a session vote.
+- `/session startup` — Start the session.
+- `/session shutdown` — Shut the session down.
+- `/session low` — Announce low player count.
+- `/session full` — Announce the server is full.
+- `-sessionpanel` — Post the live session panel.
+
+### ER:LC
+
+**High Rank and above unless another permission is specified**
+- `/erlc run` — Run an in-game command.
+- `-erlc info` — View server information.
+- `/erlc info` — View server information. Available to everyone.
+- `/erlc staff` — Show in-game staff and who is on shift.
+- `/erlc players` — Show every in-game player by team.
+- `/erlc logs` — Show the last 50 in-game logs.
+- `-whitelist <user>` — Add a user to the livery detection whitelist. Admin only.
+- `-unwhitelist <user>` — Remove a user from the livery detection whitelist. Admin only.
+- `/comms whitelist` — Add a user to the communications checker whitelist.
+- `/comms unwhitelist` — Remove a user from the communications checker whitelist.
+- `/comms whitelists` — View communications checker whitelists.
+- `/comms message` — View or change the communications checker message. Administrators only.
+
+### Staff Management
+
+**High Rank and above unless otherwise specified**
+- `/infract` — Issue a staff infraction. Retirement and Termination must remove the applicable staff roles.
+- `/infraction view` — Look up an infraction by its ID.
+- `/infraction revoke` — Revoke an infraction by its ID.
+- `/shift online` — Display staff currently on shift.
+- `/shift active` — Display the active-shifts panel.
+- `;shift start` — ER:LC in-game chat command to start a normal shift.
+- `;shift 50/50` — ER:LC in-game chat command to start a 50/50 shift.
+- `;shift break` — ER:LC in-game chat command to go on break.
+- `;shift end` — ER:LC in-game chat command to return from break or end a shift.
+- `/mod-panel` — Provide the link to the web-based moderator panel.
+- `-staffoftheweek` — Award Staff of the Week for the previous week. Also runs automatically every Monday.
+- `/promote` — Promote a staff member.
+- `/promotion view` — Look up a promotion by its ID.
+- `/promotion revoke` — Revoke a promotion by its ID.
+- `-gban` — Globally ban a user. Senior High Rank and above.
+- `-gunban` — Globally unban a user. Senior High Rank and above.
+- `-botbl` — Block a user from using the bot. Senior High Rank and above.
+- `-botunbl` — Unblock a user from using the bot. Senior High Rank and above.
+
+### Applications
+
+**Administrators**
+- `-applicationpanel` — Post the application panel.
+- `-disableapplications` — Close applications.
+- `-enableapplications` — Reopen applications.
+
+### Giveaways
+
+**Administrators**
+- `/giveaway start` — Start a giveaway.
+- `/giveaway end` — End a giveaway early.
+- `/giveaway reroll` — Draw new winners.
+
+### Account
+
+**Everyone**
+- `/afk` — Set yourself AFK. Inform people who ping you why you are AFK and show who pinged you when you return.
+- `/getinfo` — Show a Roblox account profile, group rank, playtime, and more.
+- `/playtime me` — Show your in-game playtime, rank, and level.
+- `/playtime user` — Show another user's in-game playtime, rank, and level.
+- `/playtime leaderboard` — Show the players with the most playtime.
+- `-group accept` — Accept a Roblox group request. Staff and whitelisted users.
+- `/group accept` — Accept a Roblox group request. Staff and whitelisted users.
+- `-group request-lists` — View pending group requests. High Rank and above.
+- `/group request-lists` — View pending group requests. High Rank and above.
+
+### Economy
+
+**Everyone**
+- `-balance` and `/balance` — Check a balance.
+- `-daily` and `/daily` — Claim a daily reward.
+- `-work` and `/work` — Work a shift for money.
+- `-deposit` and `/deposit` — Deposit money into the bank.
+- `-withdraw` and `/withdraw` — Withdraw money from the bank.
+- `-pay` and `/pay` — Pay another member.
+- `-rob` and `/rob` — Attempt to rob another wallet.
+- `-hack` and `/hack` — Attempt to hack a bank.
+- `-coinflip` and `/coinflip` — Play coinflip.
+- `-slots` and `/slots` — Play slots.
+- `-blackjack` and `/blackjack` — Play blackjack.
+- `-roulette` and `/roulette` — Play roulette.
+- `-dice` and `/dice` — Play dice.
+- `-higherlower` and `/higherlower` — Play higher or lower.
+- `-crash` and `/crash` — Play crash.
+- `-shop` and `/shop` — View the crypto market.
+- `-buy` and `/buy` — Buy cryptocurrency.
+- `-sell` and `/sell` — Sell cryptocurrency.
+- `-chart` and `/chart` — View a cryptocurrency price chart.
+- `-portfolio` and `/portfolio` — View cryptocurrency holdings.
+- `-leaderboard` and `/leaderboard` — View the richest members.
+- `/eco add` — Add money to a user's balance. Admin only.
+- `/eco remove` — Remove money from a user's balance. Admin only.
+- `/eco set` — Set a user's balance. Admin only.
+- `/eco reset` — Reset economy data. Admin only.
+- `/eco help` — Show economy administration help.
+
+### Utility
+
+- `-mc` and `/mc` — View the server member count. Everyone.
+- `-commands` — Show the complete command list. Everyone.
+- `/staff feedback` — Submit feedback about a staff member. Everyone.
+- `-dashboard` — Post the server dashboard. Administrators.
+- `-regulation` — Post the guidelines panel. Administrators.
+- `-testwelcome` — Preview the welcome message. Administrators.
+- `-testboost` — Preview the server boost message. Administrators.
+- `-testtag` — Preview the server tag thank-you message. Administrators.
+- `-purge <amount>` — Delete recent messages in a channel. Administrators.
+- `/say` — Send a message as the bot. Authorized staff.
+- `/jsonv2` — Send an embed from JSON. Authorized staff.
+- `/cloneemoji` — Copy an emoji into the server. Authorized staff.
+
+**Command implementation requirements:**
+1. Preserve the exact command names and aliases above.
+2. Implement slash commands as actual registered Discord application commands.
+3. Implement the listed hyphen-prefixed commands as actual working prefix commands where specified. Do not silently convert them into slash commands.
+4. Keep the ER:LC in-game chat commands using their specified `;` prefix.
+5. If a command has both prefix and slash versions, both must work.
+6. `/commands` and `-commands` must display the complete catalog, grouped by category, with descriptions and permission requirements.
+7. Use shared business logic wherever possible so prefix and slash versions behave consistently.
+8. Enforce permissions server-side. Hiding a command from unauthorized users is not sufficient.
+9. Do not give regular members administrator or High Rank access.
+10. Do not remove any existing commands that are not listed here.
+
+---
+
+# 2. COMPLETE SHIFT MANAGEMENT SYSTEM
+
+The shift system is one of the most important parts of the bot. Build it as a fully functional, persistent staff time-tracking system.
+
+It must include:
+- Active Shifts
+- Shift Management
+- On-Duty roles
+- On-Break roles
+- Normal shifts
+- 50/50 shifts
+- Shift start and end timestamps
+- Break tracking
+- Moderation counts
+- Weekly staff hours
+- Weekly quotas
+- Exempt and leave tracking
+- Shift leaderboard
+- Previous and next leaderboard pagination
+- Automatic weekly resets
+- ER:LC in-game shift integration
+
+Use real Discord members, real role IDs, real database records, and actual elapsed time. Never use example names or sample statistics as live data.
+
+## 3. ACTIVE SHIFTS EMBED
+
+Create `/shift active` and make `/shift online` display the appropriate live shift information.
+
+The Active Shifts embed must closely reproduce this layout:
+
+**Title:**
+`:online: Active Shifts`
+
+**Description / Summary:**
+`1 on shift · 1 on break`
+
+Each staff member must have their own entry.
+
+**Example of the required layout:**
+
+`:shift_start: **@unknown-user** · **On Shift**`
+
+> `:clock: **4d 6h 32m** on shift · started 4 days ago 0 breaks · 0 moderations`
+
+`:shift_break: **@Evil Homer** · **On Break** · 50/50`
+
+> `:clock: **2m** on shift · started 3 days ago 1 break · 0 moderations`
+
+The above names and times are visual examples only. Populate the actual embed using current database records and Discord member mentions.
+
+**Required behavior:**
+- Show the total number of staff currently on shift.
+- Show the total number of staff currently on break.
+- Display every active staff member.
+- Show whether each person is On Shift or On Break.
+- Identify 50/50 shifts.
+- Show the total time worked.
+- Show the original shift start time.
+- Show the number of breaks taken.
+- Show the number of moderations performed during the shift.
+- Use the correct custom WVRP emojis.
+- Include the configured bottom banner.
+- Update the information whenever shift status changes.
+- Do not include staff whose shifts have ended.
+- If nobody is on shift, display a clean empty-state message.
+
+The active-shifts information must remain accurate even after the bot restarts.
+
+## 4. ON-DUTY AND ON-BREAK ROLE SYSTEM
+
+Create configurable Discord role IDs for:
+
+- **On-Duty Role:** Automatically assigned when a staff member starts a shift.
+- **On-Break Role:** Automatically assigned when a staff member goes on break.
+
+The role system must work as follows:
+
+**When a staff member starts a shift:**
+1. Create a persistent shift record.
+2. Record the exact start timestamp.
+3. Assign the On-Duty role.
+4. Remove the On-Break role if present.
+5. Update the Active Shifts display.
+6. Update the Shift Management panel.
+
+**When a staff member starts a break:**
+1. Record the break start timestamp.
+2. Change their status to On Break.
+3. Remove the On-Duty role.
+4. Assign the On-Break role.
+5. Preserve the original shift start time.
+6. Update the Active Shifts display.
+
+**When a staff member returns from break:**
+1. Calculate the actual break duration.
+2. Save it in the shift record.
+3. Increment the break count.
+4. Set their status to On Shift.
+5. Remove the On-Break role.
+6. Restore the On-Duty role.
+7. Update the Active Shifts display.
+
+**When a staff member ends their shift:**
+1. Calculate the total shift duration.
+2. Subtract break time from credited working time.
+3. Save the completed shift.
+4. Remove both On-Duty and On-Break roles.
+5. Update their weekly hours.
+6. Update the leaderboard and Shift Management panel.
+
+Handle missing permissions, missing roles, departed members, duplicate shift starts, and unexpected bot restarts safely. Never create duplicate active shifts.
+
+## 5. SHIFT MANAGEMENT EMBED
+
+Create a Shift Management panel with the following design and structure:
+
+**Title:**
+`:shift_end: Shift Management`
+
+**Status:**
+`Off Duty`
+
+**Staff information:**
+
+`:person: **Staff Member:** @Ronaldoiscat`
+
+`:pin: **Status:** Off Duty`
+
+`:calendar: **This Week:** 3h 0m of 3h 20m (90%) · 3 shifts`
+
+`:chart: **Week Resets:** in 17 hours`
+
+The names and values above are examples. Use the actual interacting member's information.
+
+**Buttons:**
+
+- `Start Shift`
+- `Start 50/50`
+- `End Shift`
+
+Button behavior:
+
+**Start Shift**
+- Start a normal shift.
+- Assign the On-Duty role.
+- Set the status to On Shift.
+- Update the embed.
+- Disable or replace the start controls while the user is already on shift.
+
+**Start 50/50**
+- Start a shift with the 50/50 designation.
+- Assign the On-Duty role.
+- Store the 50/50 designation in the database.
+- Display the 50/50 indicator in Active Shifts.
+- Count the shift toward the staff member's credited hours using the configured quota rules.
+
+**End Shift**
+- Use a red/danger-style button.
+- Only allow the staff member to end their own shift unless an authorized supervisor uses an administrative override.
+- Calculate working time accurately.
+- Remove their duty roles.
+- Update their weekly totals.
+- Change their status back to Off Duty.
+
+When a shift begins, the panel must change from Off Duty to On Shift. When a shift ends, the panel must change back to Off Duty.
+
+When a member is on break, show On Break and provide the appropriate return-from-break control.
+
+Buttons must use real Discord interaction handlers. They must not be decorative.
+
+## 6. SHIFT LEADERSHIP / LEADERBOARD
+
+Create a complete Shift Leaderboard system.
+
+**Title:**
+`:lb: Shift Leaderboard`
+
+**Header:**
+`This week · November 1, 2026 to November 8, 2026 · 3h 20m quota · resets in 17 hours`
+
+Use the real current week, actual quota configuration, and actual reset countdown. The example dates and values are only illustrative.
+
+**Statistics section:**
+
+`:members: **Staff:** 151`
+
+`:tick: **Met Quota:** 43`
+
+`:cross: **Below Quota:** 83`
+
+`:calendar: **Exempt, On Leave:** 12`
+
+`:pin: **No Quota Required:** 13`
+
+`:clock: **Team Total:** 14d 18h 5m`
+
+Calculate every value from actual staff records and configuration.
+
+**Leaderboard entries:**
+
+`**Quota Met · 43**`
+
+`1. @Michaeljorden723 · 17h 16m · 110 mods`
+
+`2. @Lemonsourguy1 · 15h 8m · 14 mods`
+
+`3. @Mjlovesmilk24_Dev · 13h 33m · 1 mod`
+
+`4. @Corpal01 · 11h 38m · 19 mods`
+
+`5. @Awesomeplaya541 · 11h 24m · 4 mods`
+
+`6. @Lasekjcj · 10h 58m · 73 mods`
+
+`7. @PTFS_messi · 8h 49m · 4 mods`
+
+`8. @Tylersequin8 · 8h 41m · 39 mods`
+
+`9. @unknown-user · 8h 1m · 26 mods`
+
+`10. @demozcool · 7h 54m · 33 mods`
+
+All example members and statistics must be replaced by real staff data.
+
+### Leaderboard pagination
+
+The leaderboard must display all staff, not just the first ten.
+
+Implement:
+- Previous Page button.
+- Next Page button.
+- Current page indicator.
+- Total page count.
+- A configurable number of staff entries per page.
+- Correct sorting by credited weekly shift hours.
+- Consistent pagination when users move between pages.
+- Disabled Previous button on the first page.
+- Disabled Next button on the final page.
+- Live totals and accurate rankings.
+- A clear empty state if no staff have qualifying shift records.
+
+The layout should show the top ten staff on the first page by default, with the next ten on the second page, and so on. The number of entries per page should be configurable.
+
+The statistics at the top must remain accurate across all pages.
+
+### Leaderboard categories
+
+Separate staff into:
+1. Quota Met
+2. Below Quota
+3. Exempt / On Leave
+4. No Quota Required
+
+Show the appropriate category and ranking. Do not incorrectly mark exempt staff as below quota.
+
+## 7. WEEKLY QUOTAS AND AUTOMATIC RESET
+
+Build a configurable weekly quota system.
+
+Administrators must be able to configure:
+- Weekly shift quota.
+- Week start day.
+- Weekly reset time.
+- Timezone.
+- Exempt staff roles.
+- Staff on leave.
+- Staff who do not require quota.
+- 50/50 shift crediting rules.
+
+Requirements:
+- Track credited hours accurately.
+- Count only actual working time, excluding breaks.
+- Preserve completed historical shift records.
+- Automatically reset weekly leaderboard totals at the configured time.
+- Never erase historical records when resetting the weekly leaderboard.
+- Calculate quota percentages correctly.
+- Show how long remains until the next reset.
+- Handle the week boundary correctly.
+- Avoid resetting multiple times because of duplicate scheduled jobs or bot restarts.
+
+## 8. ER:LC IN-GAME SHIFT INTEGRATION
+
+Integrate the in-game chat commands with the same shift database and business logic.
+
+- `;shift start` — Start a normal shift.
+- `;shift 50/50` — Start a 50/50 shift.
+- `;shift break` — Go on break.
+- `;shift end` — Return from break or end the shift according to the current state.
+
+The bot must verify the in-game player's identity and link it to their Discord account before allowing shift tracking.
+
+Do not trust arbitrary usernames or unverified player messages.
+
+When an in-game shift action succeeds:
+- Update the same database record used by Discord buttons.
+- Update Discord duty roles.
+- Update Active Shifts.
+- Update the staff member's Shift Management panel.
+- Update leaderboard totals when the shift ends.
+
+Prevent duplicate shift events and invalid state transitions.
+
+## 9. DATABASE REQUIREMENTS
+
+Use persistent database storage for:
+- Staff Discord IDs.
+- Linked Roblox IDs.
+- Active shift records.
+- Completed shifts.
+- Shift start timestamps.
+- Break start and end timestamps.
+- Total break duration.
+- Total credited work duration.
+- Shift type (normal or 50/50).
+- Moderation counts.
+- Weekly quota configuration.
+- Weekly totals.
+- Exemptions.
+- Leave status.
+- Leaderboard history.
+
+Use database transactions where needed. Store timestamps in a consistent format and calculate durations using timestamps rather than repeatedly incrementing timers.
+
+## 10. DESIGN AND EMBED REQUIREMENTS
+
+The shift embeds must follow the supplied reference layout closely.
+
+Use:
+- WVRP branding.
+- The configured blue embed color.
+- Correct custom Discord emojis.
+- Clean, organized spacing.
+- Correct member mentions.
+- Top and bottom banners wherever configured for the relevant embed.
+- The specified bottom banner on the Active Shifts embed.
+- Consistent embed formatting across all shift panels.
+
+Do not substitute generic emojis where the supplied WVRP custom emoji is available.
+
+The shift system should look like a professional staff management system, not a basic text command.
+
+## 11. PERMISSIONS AND SECURITY
+
+- Staff members can start, break, resume, and end their own shifts.
+- High Rank and above can access authorized staff management functions.
+- Only authorized leadership can change quota configuration, exempt staff, place staff on leave, or override another member's shift.
+- Administrators can configure role IDs and reset settings.
+- Do not allow regular users to manipulate other staff members' shifts.
+- Validate every interaction on the server.
+- Handle missing role permissions gracefully.
+
+## 12. FINAL VERIFICATION — DO NOT SKIP
+
+Before declaring completion, verify every command in the catalog.
+
+For the shift system, test:
+1. Starting a normal shift.
+2. Starting a 50/50 shift.
+3. Assigning the On-Duty role.
+4. Going on break.
+5. Switching to the On-Break role.
+6. Returning from break.
+7. Restoring the On-Duty role.
+8. Ending a shift.
+9. Removing duty roles.
+10. Calculating credited hours.
+11. Counting breaks.
+12. Counting moderations.
+13. Updating Active Shifts.
+14. Updating Shift Management.
+15. Updating weekly quota progress.
+16. Updating the leaderboard.
+17. Previous and next page navigation.
+18. Weekly reset behavior.
+19. Database persistence after restarting the bot.
+20. ER:LC in-game shift integration.
+
+Also verify:
+- Every listed prefix command.
+- Every listed slash command.
+- Every slash-command subcommand.
+- Every permission restriction.
+- Every command's actual execution.
+- No duplicate command registrations.
+- No missing interaction handlers.
+- No fake or placeholder functionality.
+
+**FINAL RULE:** Do not just create the embeds. Implement the complete backend, database, handlers, permissions, role management, calculations, and working buttons.
+
+Do not replace the existing command system. Integrate these requirements into the existing WVRP bot while preserving its current architecture and all existing functionality.
+
+A command is not complete merely because it appears in `/commands`. It must actually work.# WVRP — EXACT REFERENCE RECREATION & COMPLETE DISCORD BOT IMPLEMENTATION
+
+You are working on my existing **West Virginia Roleplay (WVRP) Discord.js v14 bot**.
+
+Your job is to make the bot look and function EXACTLY how I describe and how my previously supplied reference screenshots demonstrate.
+
+This is an actual Discord bot project. Do not replace it with a website, dashboard mockup, or demonstration.
+
+## 1. MOST IMPORTANT: FOLLOW MY REFERENCES
+
+I have already supplied reference screenshots and detailed feature descriptions.
+
+You MUST:
+
+- Review every screenshot I have previously supplied.
+- Review the complete command catalog I provided.
+- Review my existing source code and project architecture.
+- Recreate each embed according to its corresponding reference.
+- Preserve the original layout, visual hierarchy, descriptions, fields, emojis, buttons, dropdowns, and interaction behavior.
+- Use original WVRP branding.
+- Never substitute a generic Discord embed for my reference.
+- Never decide to redesign something simply because you prefer another design.
+
+I want the result to look as close to my reference screenshots as Discord allows.
+
+## 2. TOP AND BOTTOM BANNER REQUIREMENT
+
+This is a very important design requirement.
+
+Every embed that I specify as having a top and bottom banner must display BOTH.
+
+This includes:
+
+- Ticket panels and ticket messages.
+- Infraction announcements.
+- Promotion announcements.
+- Staff Dashboard.
+- Staff Feedback.
+- Staff Applications.
+- Application acceptance and denial DMs.
+- Training announcements.
+- Departments.
+- Marketplace.
+- Marketplace Terms of Service.
+- Session announcements.
+- Session Shutdown.
+- ER:LC information and monitoring.
+- Other embeds where I specify both banners.
+
+Exceptions must follow my individual specifications.
+
+For example:
+- Training results: bottom banner only.
+- Training announcements: top and bottom banners.
+
+Do not forget the bottom banner. Do not randomly omit the top banner.
+
+Create one centralized embed builder that automatically applies the appropriate banners, colors, footer, timestamp, and WVRP branding.
+
+## 3. STAFF INFRACTIONS — INF-0000
+
+Create the exact infraction announcement layout.
+
+Example:
+
+Staff Member: @Dm0ney_4u
+
+Punishment: Verbal Warning
+
+Appealable: Yes
+
+Reason: Please don't dump staff cars in the river, that is considered trolling and such and is unprofessional.
+
+Issued By: @Blurryface_293
+
+Reference ID: INF-0314
+
+The embed must have a top banner and bottom banner.
+
+### Infraction DM
+
+When an infraction is issued, automatically DM the affected staff member.
+
+The DM must contain the same professional infraction information and WVRP banners.
+
+Include a button:
+
+**Appeal Infraction**
+
+### Appeal workflow
+
+When the staff member clicks Appeal Infraction:
+
+1. Verify that the infraction is appealable.
+2. Verify that the infraction has not already been appealed or revoked.
+3. Create a private appeal channel accessible only to the appellant and authorized Internal Affairs staff.
+4. Send a rich WVRP embed explaining the appeal process.
+5. Ask five questions sequentially.
+6. Wait for the member's response to each question.
+7. After each answer, automatically present the next question.
+8. Save all five answers in SQLite.
+9. Once completed, notify Internal Affairs.
+10. Allow authorized staff to review the appeal.
+
+Do not send all five questions at once.
+
+### Internal Affairs evidence thread
+
+Every issued infraction must also create an evidence thread connected to the infraction record.
+
+The thread must:
+
+- Identify the accused staff member.
+- Identify the person who issued the infraction.
+- Display the infraction ID and punishment.
+- Ping the staff member who issued the infraction.
+- Request that the issuer provide footage or evidence.
+- Allow Internal Affairs to review the submitted proof.
+- Preserve evidence and review information.
+
+### Infraction revocation
+
+Implement:
+
+`/infraction revoke id: reason:`
+
+Example announcement:
+
+**Infraction Revoked**
+
+INF-0307 (Verbal Warning) for @xXEThYTXx was revoked by @syncedscript.
+
+Reason: Petty + bypassing isn't that big of a deal anymore.
+
+Use the WVRP embed design and record the revocation in SQLite.
+
+### Infraction viewing
+
+Implement:
+
+`/infraction view id:`
+
+Display the complete original infraction, issuer, reason, punishment, appeal status, evidence status, and revocation history.
+
+## 4. STAFF PROMOTIONS — PRO-0000
+
+Implement:
+
+`/promote user: rank: reason:`
+
+Example:
+
+Staff Member: @taranbatmann
+
+Promotion: @Trial Administrator
+
+Reason: Fast Pass
+
+Issued By: @literallyihn
+
+Reference ID: PRO-0129
+
+Top banner and bottom banner required.
+
+Automatically record promotions in SQLite.
+
+Support:
+
+`/promotion view id:`
+
+`/promotion revoke id: reason:`
+
+Preserve promotion history and authorized role updates.
+
+## 5. STAFF DASHBOARD
+
+Create the following embed:
+
+**Staff Dashboard**
+
+This dashboard serves as your central hub for staff resources, policies, procedures, and staff channels. Please review all materials carefully and stay informed about any updates to ensure the highest standards of professionalism.
+
+**Staff Resources**
+
+Provide three actual resource links:
+
+1. Staff Panel — I will provide my Melonly staff panel URL.
+2. Staff Guide — I will provide my staff handbook URL.
+3. Roblox Group — I will provide my Roblox group URL.
+
+Use functional Discord link buttons or the reference's exact resource layout.
+
+Include:
+
+By accepting a position on the West Virginia Roleplay Team, you agree to follow all staff policies, handbooks, and procedures. Staff members are expected to maintain professionalism, respect the chain of command, act with integrity, and represent the community positively at all times. Failure to comply with staff expectations may result in disciplinary action or removal from the staff team.
+
+Top banner and bottom banner required.
+
+Do not invent the URLs. Make them configurable.
+
+## 6. TRAINING SYSTEM
+
+### Training Log
+
+Create the following layout:
+
+**Training Log**
+
+Trainee: @MasRTC_v4 (honestly_mas)
+
+Trainer: @Ronaldoiscat (carlos473)
+
+Result: Passed
+
+Date: November 7, 2026 at 3:25 PM
+
+Notes:
+
+Did overall good.
+
+Training results must have a bottom banner only.
+
+Implement the appropriate training log command and persistent SQLite records.
+
+### Training announcement
+
+Command:
+
+`/training start starts_in: notes:`
+
+Create a rich embed with:
+
+**Staff Training**
+
+This training session has ended. Thank you to everyone who attended.
+
+You must complete a training within 7 days of becoming a Trainee, otherwise it will result in an immediate termination.
+
+**How to attend**
+
+- Press Join Game below to load into the server.
+- Go to the Police Team briefing room and wait for your trainer.
+- Make sure you are wearing the staff uniform.
+
+Trainer: @Unk0wnS0ULLX
+
+Started: 7:10 PM
+
+Status: Scheduled / In Progress / Ended
+
+Ended: Display the actual end time and duration.
+
+Attending (0): Nobody yet.
+
+Top and bottom banners required.
+
+### Training buttons
+
+Create actual interactive buttons:
+
+- Green: Join Training.
+- Blue: Start Training.
+- Red: End Training.
+- Link button: Join Game.
+
+Expected behavior:
+
+**Scheduled:**
+- Members can join training.
+- Join Training registers their Discord account.
+- Update the attendee count and attendee list.
+- Prevent duplicate attendance.
+
+**Started:**
+- Update the embed status to In Progress.
+- Display the actual start time.
+- Disable additional joining if appropriate.
+- Keep the training management controls available to authorized staff.
+
+**Ended:**
+- Update the embed to Ended.
+- Display the actual ending time and duration.
+- Disable Join Training.
+- Prevent further attendance.
+- Keep the completed training announcement visible.
+
+Only authorized trainers and management may start or end sessions.
+
+The buttons must update the original embed rather than create unnecessary duplicate announcements.
+
+## 7. STAFF FEEDBACK
+
+Create:
+
+**Staff Feedback**
+
+Staff Member: @Lemonsourguy1
+
+Rated By: @Merry Christmas
+
+Rating: 5/5
+
+Comment: Helping me out with two difficult members. Highly recommend this staff member; he should get a raise.
+
+Top banner and bottom banner required.
+
+Implement the actual feedback submission system with:
+
+- Staff selection.
+- Rating selection.
+- Comment modal.
+- Optional anonymous submission if configured.
+- Private feedback review channel.
+- SQLite storage.
+- Authorized review controls.
+
+## 8. DEPARTMENTS PANEL
+
+Create the Departments panel using my reference screenshots.
+
+Description:
+
+Explore the various Departments within West Virginia Roleplay, each offering a unique role and experience within our community. Our departments provide opportunities to get involved, serve the community, and create immersive roleplay experiences. Find your place, build your career, and become part of something bigger.
+
+Top banner and bottom banner required.
+
+Include configurable department links and actual department interactions.
+
+Support:
+
+- Department selection.
+- Department joining.
+- Department leaving.
+- Department leadership.
+- Department rosters.
+- Whitelisted teams.
+- Department-specific information.
+- Department role configuration.
+
+I will provide my Discord department links and other URLs.
+
+## 9. APPLICATION SYSTEM
+
+Create the exact application hub design based on my references.
+
+**Welcome to the WVRP Application Hub.**
+
+In this channel you can find all of our applications to apply to work for WVRP! Before applying, ensure you read the rules and requirements. Good luck to all applicants!
+
+Top banner and bottom banner required.
+
+### Rules & Requirements
+
+- Must be over 13 years old.
+- Must answer in full detail and complete sentences.
+- The use of Artificial Intelligence or external help is not allowed.
+- Must answer with good spelling, punctuation, and grammar.
+- Applicants should not ask for applications to be read.
+- Must not have a bad history within WVRP or any PRC server.
+
+Provide the application buttons from my references:
+
+- Staff Application.
+- Media Application.
+- CET Application.
+
+### Staff application
+
+When someone clicks Staff Application:
+
+1. Open a private application process.
+2. Display a rich introductory embed.
+3. Ask exactly 15 questions.
+4. Ask the questions sequentially.
+5. Wait for each response before moving forward.
+6. Save each answer.
+7. Display progress.
+8. Prevent duplicate active applications.
+9. Submit the completed application to the staff review channel.
+
+Use the exact 15-question application specification I previously supplied. Do not replace it with a generic questionnaire.
+
+### Sapling integration
+
+After submission:
+
+- Analyze the submitted answers using the configured Sapling API.
+- Display the AI-writing detection result.
+- Show the confidence percentage when the API supplies it.
+- Identify whether the writing appears AI-generated or potentially pasted.
+- Store the analysis.
+- Do not automatically deny someone based on the score alone.
+
+### Application review
+
+Reviewers must see all 15 answers and the Sapling results.
+
+Include working buttons:
+
+- Accept.
+- Deny.
+- Request More Information.
+- Claim Review.
+
+When accepted, send a DM with top and bottom banners.
+
+Acceptance message:
+
+We would like to congratulate you on passing your application and becoming a Trainee within our server. Your dedication throughout your application has stood out to us, and has earned you a place in our community!
+
+Please be on the lookout in our training category for updates and training sessions from our training team, and feel free to ask any questions you may have.
+
+Once again, congratulations, and welcome to the team @MEMBER.
+
+When denied, ask the reviewer for a denial reason and send a professional denial DM with WVRP banners.
+
+Record every decision.
+
+## 10. MARKETPLACE
+
+Create the WVRP Marketplace using my exact reference structure.
+
+Top banner and bottom banner required.
+
+Description:
+
+The WVRP Marketplace is your one-stop destination for supporting the community while getting your name, brand, or community noticed. Here, you can purchase paid advertisements, sponsor exciting giveaways, make donations, purchase exclusive memberships, and explore a variety of other ways to get involved.
+
+**Marketplace Information**
+
+Before purchasing from our marketplace, all customers are required to read, understand, and comply with our Marketplace Terms of Service.
+
+Please Note: WVRP DOES NOT sell access to in-game ER:LC content.
+
+### Terms of Service button
+
+Place the green check-mark Terms of Service button on the right side of the marketplace panel, matching my screenshot.
+
+When clicked, show a rich Terms of Service embed or interaction containing all ten sections:
+
+01 — Order Queue  
+02 — Respect & Conduct  
+03 — Links & Required Assets  
+04 — Order Changes  
+05 — Claiming Purchases  
+06 — Processing & Response Times  
+07 — Refunds & Cancellations  
+08 — Chargebacks  
+09 — Right to Refuse Service  
+10 — Responsibility
+
+Preserve the full wording of my supplied terms, replacing the original community branding with WVRP.
+
+### Marketplace offerings
+
+Preserve the following categories:
+
+**Paid Advertisements**
+- @everyone Ping Paid Advertisement.
+- @here Ping Paid Advertisement.
+- Regular Paid Advertisement.
+
+**Sponsored Giveaways**
+- @everyone Ping Sponsored Giveaway.
+- @here Ping Sponsored Giveaway.
+- Regular Sponsored Giveaway.
+- Minimum prize: 500 Robux.
+
+**Packages**
+- Custom Discord Office Voice Channel.
+- VIP Package.
+- WVRP Hoodie.
+- WVRP+ Membership.
+
+**Donations**
+- 500 Robux.
+- 1,000 Robux.
+- 1,500 Robux.
+
+**Booster Perks**
+- Exclusive Community Booster role.
+- Exotic Vehicles Bypass.
+- GIF and Emoji Permissions.
+- Booster-only chat and supporter category.
+- Priority suggestions.
+- Early server updates.
+- Supporter Lounge VC.
+- Custom nickname permissions.
+
+**Advanced Roleplayer Perks**
+
+Unlockable after 100 in-game hours:
+
+- Advanced Roleplayer role.
+- In-game helper permissions.
+- Exotic Vehicles Bypass.
+- Suggestion Priority.
+- Early in-game updates.
+
+All orders must be saved and assigned unique order IDs. Do not fabricate payment processing.
+
+I will supply the actual purchase links, channel links, and role IDs.
+
+## 11. SUPPORT TICKETS
+
+Recreate my Support Center screenshots.
+
+Use the categories:
+
+- General Support.
+- High Rank Support.
+- Department Support.
+- Internal Affairs.
+- Purchase Redemption.
+- Other categories from my original specification.
+
+Ticket channels must use numbered names:
+
+`General-0000`
+
+`HighRank-0000`
+
+`Department-0000`
+
+`InternalAffairs-0000`
+
+Every ticket must have a unique sequential ID.
+
+### Ticket controls
+
+- Claim.
+- Unclaim.
+- Close.
+- Add User.
+- Remove User.
+- Rename.
+
+Claim behavior:
+
+- Green Claim button.
+- When clicked, turn it into a red Unclaim button.
+- Announce which staff member claimed the ticket.
+- Prevent unauthorized claiming.
+
+Closing a ticket must generate a transcript using the configured Cookie API integration.
+
+### Ticket closed DM
+
+Example:
+
+Ticket #6492 — General Support
+
+Your General Support ticket has been closed.
+
+Handled By: @Star_Rock13
+
+Closed By: @Star_Rock13
+
+Opened: October 24, 2026 at 8:41 PM
+
+Closed: Actual closing date
+
+Duration: 6m
+
+Messages Sent: 20 messages
+
+Include an Online Transcript link button.
+
+Use top and bottom banners.
+
+Send the transcript to the ticket opener and authorized staff.
+
+## 12. SESSION MANAGEMENT — EXACT REFERENCE RECREATION
+
+This is another extremely important feature.
+
+I want the session announcement to match my supplied New York Sessions screenshot's layout, but use WVRP branding.
+
+Create:
+
+**WVRP Sessions**
+
+Welcome to West Virginia Roleplay sessions. We run on a session-based operating system — sessions are managed by our authorized Community Directive and Management teams. Please do not demand that session management actions be taken.
+
+### In-Game Information
+
+Server Name: Actual ER:LC API server name.
+
+Server Join Code: WVRP.
+
+Server Owner: Actual API owner information where available.
+
+### Player Count
+
+Display actual live player count.
+
+### In-Queue
+
+Display actual queue count.
+
+### Staff In-Game
+
+Display actual in-game staff information.
+
+### Right-side buttons
+
+Recreate the right-side button arrangement shown in my reference:
+
+- Players.
+- Queue.
+- Staff.
+
+These must open or update the corresponding live information.
+
+### Bottom controls
+
+Include the actual controls from my reference:
+
+- Server Status.
+- Offline status indicator.
+- Quick Join.
+- Notifications.
+
+The notification feature must allow members to subscribe to session notifications using a configured notification role.
+
+Allow members to select or subscribe to the notification role according to the configured permission rules.
+
+The bot must ping the configured role when an authorized session announcement is posted.
+
+Quick Join must use the configured ER:LC private server join link or supported join URL.
+
+Do not invent join URLs.
+
+### Session shutdown announcement
+
+Create:
+
+**Session Shutdown**
+
+Our in-game server has been shut down. At this time, please refrain from joining, or you may face moderation actions against your account. Keep an eye on this channel for the next session!
+
+Top banner and bottom banner required.
+
+### Session commands
+
+Preserve:
+
+`/session vote`
+
+`/session startup`
+
+`/session shutdown`
+
+`/session low`
+
+`/session full`
+
+`-sessionpanel`
+
+Session voting must record individual users, prevent duplicate votes, and update vote counts.
+
+Session announcements must use actual API information wherever applicable.
+
+Do not announce false player counts or server status.
+
+## 13. ER:LC COMMANDS AND PERMISSIONS
+
+Preserve these exact commands:
+
+`/erlc run` — Execute an in-game command.
+
+`-erlc info` — View server information.
+
+`/erlc info` — View server information.
+
+`/erlc staff` — View in-game staff and who is on shift.
+
+`/erlc players` — View every in-game player by team.
+
+`/erlc logs` — View the last 50 in-game logs.
+
+`-whitelist <user>` — Livery detection whitelist.
+
+`-unwhitelist <user>` — Remove a livery detection whitelist.
+
+`/comms whitelist`
+
+`/comms unwhitelist`
+
+`/comms whitelists`
+
+`/comms message`
+
+The Comms commands must retain their original whitelist and message-management functionality.
+
+**Permissions are mandatory.**
+
+- `/erlc info`: Everyone.
+- `/erlc run`: High Rank and above, subject to my existing permission configuration.
+- Administrative whitelist operations: Authorized administrators.
+- `/comms message`: Administrators.
+- `/comms whitelist`: Follow the configured administrative permissions.
+- `/comms unwhitelist`: Follow the configured administrative permissions.
+- `/comms whitelists`: Follow the configured viewing permissions.
+
+For all other commands, preserve the permission levels already specified in my original command catalog.
+
+Never make all commands available to everyone.
+
+Never lower an existing permission requirement.
+
+Never silently change my configured staff hierarchy.
+
+### ER:LC monitoring
+
+Use the official ER:LC API v2.
+
+Display:
+
+- Live server information.
+- Current players.
+- Queue.
+- Staff.
+- Player teams.
+- Callsigns.
+- Wanted stars.
+- Locations.
+- Kill logs.
+- Join logs.
+- Leave logs.
+- Command logs.
+- Emergency calls.
+- Vehicle information.
+
+Use actual API responses and documented capabilities only.
+
+### Kill log example
+
+Antioneb8 was killed by Centex144Ro.
+
+November 7, 2026 — 7:57:34 PM.
+
+Display the available kill count or event information when supported by the API.
+
+Create branded logging embeds for all supported log categories.
+
+Do not invent API endpoints or fake log entries.
+
+## 14. COMPLETE COMMAND CATALOG
+
+This is not permission to create only the commands listed in this section.
+
+You must preserve my COMPLETE original command catalog from my previously supplied specifications and existing repository.
+
+This includes:
+
+- Tickets.
+- Sessions.
+- ER:LC.
+- Comms.
+- Staff management.
+- Promotions.
+- Infractions.
+- Applications.
+- Giveaways.
+- Roblox.
+- Account management.
+- Economy.
+- Utility.
+- Moderation.
+- Training.
+- Departments.
+- Marketplace.
+- Feedback.
+- Community management.
+
+Preserve all prefix commands, slash commands, aliases, subcommands, descriptions, and permissions.
+
+Do not remove commands because they are difficult to implement.
+
+Do not rename commands to make the architecture easier.
+
+Do not change my existing command prefix.
+
+Every command must have real functionality.
+
+The `/commands` and prefix commands directory must show the complete catalog, with category selection, pagination, descriptions, usage, and required permissions.
+
+## 15. TECHNICAL REQUIREMENTS
+
+Use my existing project.
+
+Technology:
+
+- Node.js.
+- discord.js v14.
+- JavaScript.
+- better-sqlite3.
+- dotenv.
+- Official ER:LC API v2.
+- Groq.
+- Sapling.
+- Roblox API.
+- Cookie API transcripts.
+
+Use the existing command handlers, database, services, and architecture.
+
+All interactive components must survive bot restarts.
+
+Persist:
+
+- Infractions.
+- Appeals.
+- Evidence.
+- Promotions.
+- Applications.
+- Application answers.
+- Training.
+- Attendance.
+- Feedback.
+- Tickets.
+- Transcripts.
+- Session votes.
+- Session history.
+- Marketplace orders.
+- Staff records.
+- Permissions.
+- Audit logs.
+
+Use configurable environment variables for:
+
+- WVRP top banner.
+- WVRP bottom banner.
+- Embed color.
+- Logo.
+- Channels.
+- Roles.
+- Resource links.
+- ER:LC API key.
+- Groq key.
+- Sapling key.
+- Cookie API credentials.
+
+Never hardcode credentials.
+
+## 16. IMPLEMENTATION RULES
+
+Before changing any files:
+
+1. Inspect the existing project.
+2. Read all existing command modules.
+3. Read the complete command catalog.
+4. Identify existing working functionality.
+5. Identify the reference screenshots and their corresponding features.
+6. Create a feature implementation checklist.
+
+Do not rebuild my project from scratch.
+
+Do not overwrite working code unnecessarily.
+
+Do not delete database records.
+
+Do not create fake buttons.
+
+Do not create placeholder command handlers.
+
+Do not use simulated API responses.
+
+Do not claim something works before testing it.
+
+For each feature:
+
+- Implement the actual Discord interaction.
+- Implement permission checks.
+- Implement database persistence.
+- Implement error handling.
+- Test the complete workflow.
+- Verify the correct banners.
+- Verify the correct embed layout.
+- Verify the correct role restrictions.
+
+If Discord has a technical limitation, explain it and implement the closest functional alternative.
+
+## 17. FINAL EXPECTATION
+
+I want my WVRP Discord bot to look like the screenshots I supplied, not like a generic bot that an AI decided to design.
+
+I want:
+
+- Exact reference-inspired embeds.
+- Correct top and bottom banners.
+- Original WVRP branding.
+- Complete command preservation.
+- Correct High Rank and above restrictions.
+- Functional buttons.
+- Functional dropdowns.
+- Sequential modal and questionnaire workflows.
+- Real ER:LC API integration.
+- Persistent SQLite records.
+- Real staff management.
+- Real ticket workflows.
+- Real application reviews.
+- Real session management.
+- Real logs and monitoring.
+
+**IMPORTANT: DO NOT SIMPLIFY MY REQUEST. DO NOT SUBSTITUTE YOUR OWN DESIGN. DO NOT SKIP FEATURES.**
+
+My screenshots determine the appearance.
+
+My specifications determine the functionality.
+
+My permission configuration determines who can use each command.
+
+My existing repository determines the architecture.
+
+Build what I actually requested for WEST VIRGINIA ROLEPLAY.
